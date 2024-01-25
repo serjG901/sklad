@@ -138,6 +138,11 @@ function App() {
             <br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>SystemMessages:</summary>
+                <div style={{ display: "grid", grid: "auto / repeat(3, 1fr)" }}>
+                    <div>№</div>
+                    <div>Message</div>
+                    <div>DateTime</div>
+                </div>
                 {systemMessages.map(
                     (systemMessage: SystemMessage, index: number) => (
                         <div
