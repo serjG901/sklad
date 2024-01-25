@@ -13,6 +13,7 @@ export interface Item {
 
 export interface SystemMessage {
     message: string;
+    comment: string;
     datetime: number;
     color: "red" | "orange" | "green";
 }
@@ -56,7 +57,8 @@ const useSkladStore = create<SkladState>()(
 
                         if (!checkItem) {
                             get().addSystemMessage({
-                                message: `This item do not exist | ${deleteComment}`,
+                                message: `This item do not exist`,
+                                comment: deleteComment,
                                 datetime: Date.now(),
                                 color: "red",
                             });
@@ -64,14 +66,16 @@ const useSkladStore = create<SkladState>()(
                         } else {
                             if (checkItem.quantity < deleteQuantity) {
                                 get().addSystemMessage({
-                                    message: `${checkItem.name} quantity (${checkItem.quantity}) less than you trying to delete (${deleteQuantity}) | ${deleteComment}`,
+                                    message: `<<${checkItem.name}>> has quantity (${checkItem.quantity}) less than you trying to delete (${deleteQuantity})`,
+                                    comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "red",
                                 });
                                 return { items: state.items };
                             } else if (checkItem.quantity === deleteQuantity) {
                                 get().addSystemMessage({
-                                    message: `Delete ${checkItem.name} (all - ${checkItem.quantity}) | ${deleteComment}`,
+                                    message: `Delete <<${checkItem.name}>> (all - ${checkItem.quantity})`,
+                                    comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "green",
                                 });
@@ -84,11 +88,12 @@ const useSkladStore = create<SkladState>()(
                                 };
                             } else {
                                 get().addSystemMessage({
-                                    message: `Delete ${deleteQuantity} ${
+                                    message: `Delete ${deleteQuantity} <<${
                                         checkItem.name
-                                    } | ${deleteComment} (stay on sklad: ${
+                                    }>> (stay on sklad: ${
                                         checkItem.quantity - deleteQuantity
                                     })`,
+                                    comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "green",
                                 });

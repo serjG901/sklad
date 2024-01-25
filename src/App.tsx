@@ -138,9 +138,10 @@ function App() {
             <br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>SystemMessages:</summary>
-                <div style={{ display: "grid", grid: "auto / repeat(3, 1fr)" }}>
+                <div style={{ display: "grid", grid: "auto / repeat(4, 1fr)" }}>
                     <div>№</div>
                     <div>Message</div>
+                    <div>Comment</div>
                     <div>DateTime</div>
                 </div>
                 {systemMessages.map(
@@ -148,16 +149,17 @@ function App() {
                         <div
                             style={{
                                 display: "grid",
-                                grid: "auto / repeat(3, 1fr)",
+                                grid: "auto / repeat(4, 1fr)",
                                 color: `${systemMessage.color}`,
                             }}
                         >
                             <div>{index + 1}</div>
                             <div>{systemMessage.message}</div>
+                            <div>{systemMessage.comment}</div>
                             <div>{systemMessage.datetime}</div>
                         </div>
                     )
-                )}
+                ).reverse()}
             </details>
 
             <br />
