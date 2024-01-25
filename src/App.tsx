@@ -72,7 +72,7 @@ function App() {
                 </div>
             </div>
             <button onClick={handleDeleteItem}>delete item</button>
-            <br />
+            <br /><br />
             <div>Add Item</div>
             <div>
                 <input
@@ -133,7 +133,7 @@ function App() {
             <div>
                 <button onClick={handleAddItem}>add item</button>
             </div>
-            <br />
+            <br /><br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>SystemMessages:</summary>
                 {systemMessages.map(
@@ -153,7 +153,7 @@ function App() {
                 )}
             </details>
 
-            <br />
+            <br /><br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>Items on SKLAD:</summary>
                 <div style={{ display: "grid", grid: "auto / repeat(9, 1fr)" }}>
