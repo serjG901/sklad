@@ -1,0 +1,193 @@
+import { useRef } from "react";
+import useSkladStore, { Item, SystemMessage } from "./store/store";
+import "./App.css";
+
+function App() {
+    const [items, addItem, deleteItem, systemMessages] = useSkladStore(
+        (state) => [
+            state.items,
+            state.addItem,
+            state.deleteItem,
+            state.systemMessages,
+        ]
+    );
+    const deleteInventaryNumberRef = useRef();
+    const deleteQuantityRef = useRef();
+    const deleteCommentRef = useRef();
+    const inventaryNumberRef = useRef();
+    const nameRef = useRef();
+    const unitRef = useRef();
+    const quantityRef = useRef();
+    const priceRef = useRef();
+    const locationRef = useRef();
+    const commentRef = useRef();
+
+    function handleAddItem() {
+        addItem({
+            inventaryNumber: Number(inventaryNumberRef.current.value),
+            name: nameRef.current.value,
+            unit: unitRef.current.value,
+            quantity: Number(quantityRef.current.value),
+            price: Number(priceRef.current.value),
+            location: locationRef.current.value,
+            comment: commentRef.current.value,
+        });
+    }
+
+    function handleDeleteItem() {
+        deleteItem(
+            Number(deleteInventaryNumberRef.current.value),
+            Number(deleteQuantityRef.current.value),
+            deleteCommentRef.current.value
+        );
+    }
+
+    return (
+        <>
+            <div>Delete Item</div>
+            <div>
+                <div>
+                    <input
+                        ref={deleteInventaryNumberRef}
+                        type='text'
+                        name='deleteInventoryNumber'
+                        placeholder='InventoryNumber'
+                    />{" "}
+                </div>
+                <div>
+                    <input
+                        ref={deleteQuantityRef}
+                        type='text'
+                        name='deleteQuantity'
+                        placeholder='quantity'
+                    />{" "}
+                </div>
+                <div>
+                    <input
+                        ref={deleteCommentRef}
+                        type='text'
+                        name='deleteComment'
+                        placeholder='comment'
+                    />{" "}
+                </div>
+            </div>
+            <button onClick={handleDeleteItem}>delete item</button>
+            <br />
+            <div>Add Item</div>
+            <div>
+                <input
+                    ref={inventaryNumberRef}
+                    type='text'
+                    name='inventoryNumber'
+                    placeholder='inventoryNumber'
+                />
+            </div>
+            <div>
+                <input
+                    ref={nameRef}
+                    type='text'
+                    name='name'
+                    placeholder='name'
+                />
+            </div>
+            <div>
+                <input
+                    ref={unitRef}
+                    type='text'
+                    name='unit'
+                    placeholder='unit'
+                />
+            </div>
+            <div>
+                <input
+                    ref={quantityRef}
+                    type='text'
+                    name='quantity'
+                    placeholder='quantity'
+                />
+            </div>
+            <div>
+                <input
+                    ref={priceRef}
+                    type='text'
+                    name='price'
+                    placeholder='price'
+                />
+            </div>
+            <div>
+                <input
+                    ref={locationRef}
+                    type='text'
+                    name='location'
+                    placeholder='location'
+                />
+            </div>
+            <div>
+                <input
+                    ref={commentRef}
+                    type='text'
+                    name='comment'
+                    placeholder='comment'
+                />
+            </div>
+            <div>
+                <button onClick={handleAddItem}>add item</button>
+            </div>
+            <br />
+            <details style={{ maxHeight: "100vh", overflow: "auto" }}>
+                <summary>SystemMessages:</summary>
+                {systemMessages.map(
+                    (systemMessage: SystemMessage, index: number) => (
+                        <div
+                            style={{
+                                display: "grid",
+                                grid: "auto / repeat(3, 1fr)",
+                                color: `${systemMessage.color}`,
+                            }}
+                        >
+                            <div>{index + 1}</div>
+                            <div>{systemMessage.message}</div>
+                            <div>{systemMessage.datetime}</div>
+                        </div>
+                    )
+                )}
+            </details>
+
+            <br />
+            <details style={{ maxHeight: "100vh", overflow: "auto" }}>
+                <summary>Items on SKLAD:</summary>
+                <div style={{ display: "grid", grid: "auto / repeat(9, 1fr)" }}>
+                    <div>№</div>
+                    <div>InventaryNumber</div>
+                    <div>Name</div>
+                    <div>Unit</div>
+                    <div>Quantity</div>
+                    <div>Price</div>
+                    <div>Cost</div>
+                    <div>Location</div>
+                    <div>Comment</div>
+                </div>
+                {items.map((item: Item, index: number) => (
+                    <div
+                        style={{
+                            display: "grid",
+                            grid: "auto / repeat(9, 1fr)",
+                        }}
+                    >
+                        <div>{index + 1}</div>
+                        <div>{item.inventaryNumber}</div>
+                        <div>{item.name}</div>
+                        <div>{item.unit}</div>
+                        <div>{item.quantity}</div>
+                        <div>{item.price}</div>
+                        <div>{item.price * item.quantity}</div>
+                        <div>{item.location}</div>
+                        <div>{item.comment}</div>
+                    </div>
+                ))}
+            </details>
+        </>
+    );
+}
+
+export default App;
