@@ -11,34 +11,34 @@ function App() {
             state.systemMessages,
         ]
     );
-    const deleteInventaryNumberRef = useRef();
-    const deleteQuantityRef = useRef();
-    const deleteCommentRef = useRef();
-    const inventaryNumberRef = useRef();
-    const nameRef = useRef();
-    const unitRef = useRef();
-    const quantityRef = useRef();
-    const priceRef = useRef();
-    const locationRef = useRef();
-    const commentRef = useRef();
+    const deleteInventaryNumberRef = useRef<HTMLInputElement | null>(null);
+    const deleteQuantityRef = useRef<HTMLInputElement | null>(null);
+    const deleteCommentRef = useRef<HTMLInputElement | null>(null);
+    const inventaryNumberRef = useRef<HTMLInputElement | null>(null);
+    const nameRef = useRef<HTMLInputElement | null>(null);
+    const unitRef = useRef<HTMLInputElement | null>(null);
+    const quantityRef = useRef<HTMLInputElement | null>(null);
+    const priceRef = useRef<HTMLInputElement | null>(null);
+    const locationRef = useRef<HTMLInputElement | null>(null);
+    const commentRef = useRef<HTMLInputElement | null>(null);
 
     function handleAddItem() {
         addItem({
-            inventaryNumber: Number(inventaryNumberRef.current.value),
-            name: nameRef.current.value,
-            unit: unitRef.current.value,
-            quantity: Number(quantityRef.current.value),
-            price: Number(priceRef.current.value),
-            location: locationRef.current.value,
-            comment: commentRef.current.value,
+            inventaryNumber: Number(inventaryNumberRef.current?.value),
+            name: nameRef.current?.value || "",
+            unit: unitRef.current?.value || "",
+            quantity: Number(quantityRef.current?.value),
+            price: Number(priceRef.current?.value),
+            location: locationRef.current?.value || "",
+            comment: commentRef.current?.value || "",
         });
     }
 
     function handleDeleteItem() {
         deleteItem(
-            Number(deleteInventaryNumberRef.current.value),
-            Number(deleteQuantityRef.current.value),
-            deleteCommentRef.current.value
+            Number(deleteInventaryNumberRef.current?.value),
+            Number(deleteQuantityRef.current?.value),
+            deleteCommentRef.current?.value || ""
         );
     }
 
@@ -52,7 +52,7 @@ function App() {
                         type='text'
                         name='deleteInventoryNumber'
                         placeholder='InventoryNumber'
-                    />{" "}
+                    />
                 </div>
                 <div>
                     <input
@@ -60,7 +60,7 @@ function App() {
                         type='text'
                         name='deleteQuantity'
                         placeholder='quantity'
-                    />{" "}
+                    />
                 </div>
                 <div>
                     <input
@@ -68,11 +68,12 @@ function App() {
                         type='text'
                         name='deleteComment'
                         placeholder='comment'
-                    />{" "}
+                    />
                 </div>
             </div>
             <button onClick={handleDeleteItem}>delete item</button>
-            <br /><br />
+            <br />
+            <br />
             <div>Add Item</div>
             <div>
                 <input
@@ -133,7 +134,8 @@ function App() {
             <div>
                 <button onClick={handleAddItem}>add item</button>
             </div>
-            <br /><br />
+            <br />
+            <br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>SystemMessages:</summary>
                 {systemMessages.map(
@@ -153,7 +155,8 @@ function App() {
                 )}
             </details>
 
-            <br /><br />
+            <br />
+            <br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
                 <summary>Items on SKLAD:</summary>
                 <div style={{ display: "grid", grid: "auto / repeat(9, 1fr)" }}>
