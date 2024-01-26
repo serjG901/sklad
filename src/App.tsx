@@ -43,10 +43,7 @@ function App() {
     }
 
     let fileHandle;
-
-const butOpenFile = document.getElementById("butOpenFile")!;
-
-butOpenFile.addEventListener('click', async () => {
+const handleOpenFile = async () => {
 
   [fileHandle] = await window.showOpenFilePicker()!;
 
@@ -80,10 +77,10 @@ butOpenFile.addEventListener('click', async () => {
 
   arr.forEach((item: Item)=> addItem(item));
 
-});
+}
 
     return (
-        <><button id="butOpenFile">open file</button> <br /><br />
+        <><button onClick={handleOpenFile}>open file</button> <br /><br />
             <div>Delete Item</div>
             <div>
                 <div>
