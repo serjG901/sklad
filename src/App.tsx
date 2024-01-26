@@ -42,8 +42,8 @@ function App() {
         );
     }
 
-	async function verifyPermission(fileHandle, withWrite) {
-  const opts = {};
+	async function verifyPermission(fileHandle: any, withWrite: boolean) {
+  const opts: {writable:boolean,mode:string} = {};
   if (withWrite) {
     opts.writable = true;
     // For Chrome 86 and later...
