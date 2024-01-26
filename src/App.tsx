@@ -42,8 +42,48 @@ function App() {
         );
     }
 
+    et fileHandle;
+
+const butOpenFile = document.getElementById("butOpenFile");
+
+butOpenFile.addEventListener('click', async () => {
+
+  [fileHandle] = await window.showOpenFilePicker();
+
+  const file = await fileHandle.getFile();
+
+  const contents = await file.text();
+
+  const arr = contents
+
+	.match(/(.+)(?=NNNN)/gi)
+
+	.map((item)=> item.replaceAll("\t",'')
+
+	.split("HHHH").filter((str) => str!==""))
+
+	.map((item) => ({
+
+		inventaryNumber: Number(item[0]), 
+
+		name: item[1], 
+
+		unit: item[2], 
+
+		quantity: Number(item[4]), 
+
+		price: parseFloat(item[3].replace(" ",'').replace(',','.')), 
+
+		location: item[6], 
+
+		comment: item[7]}));
+
+  arr.forEach((item)=> addItem(item));
+
+});
+
     return (
-        <>
+        <><button id="butOpenFile">open file</button> <br /><br />
             <div>Delete Item</div>
             <div>
                 <div>
