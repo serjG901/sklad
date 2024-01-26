@@ -48,7 +48,7 @@ const butOpenFile = document.getElementById("butOpenFile")!;
 
 butOpenFile.addEventListener('click', async () => {
 
-  [fileHandle] = await window.showOpenFilePicker()?;
+  [fileHandle] = await window.showOpenFilePicker()!;
 
   const file = await fileHandle.getFile();
 
