@@ -42,7 +42,7 @@ function App() {
         );
     }
 
-    et fileHandle;
+    let fileHandle;
 
 const butOpenFile = document.getElementById("butOpenFile");
 
