@@ -44,7 +44,7 @@ function App() {
 
     let fileHandle;
 
-const butOpenFile = document.getElementById("butOpenFile");
+const butOpenFile = document.getElementById("butOpenFile")!;
 
 butOpenFile.addEventListener('click', async () => {
 
@@ -58,11 +58,11 @@ butOpenFile.addEventListener('click', async () => {
 
 	.match(/(.+)(?=NNNN)/gi)
 
-	.map((item)=> item.replaceAll("\t",'')
+	.map((item:string)=> item.replaceAll("\t",'')
 
-	.split("HHHH").filter((str) => str!==""))
+	.split("HHHH").filter((str:string) => str!==""))
 
-	.map((item) => ({
+	.map((item:string[]) => ({
 
 		inventaryNumber: Number(item[0]), 
 
@@ -78,7 +78,7 @@ butOpenFile.addEventListener('click', async () => {
 
 		comment: item[7]}));
 
-  arr.forEach((item)=> addItem(item));
+  arr.forEach((item: Item)=> addItem(item));
 
 });
 
