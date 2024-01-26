@@ -225,7 +225,7 @@ function App() {
                         <div>{item.unit}</div>
                         <div>{item.quantity}</div>
                         <div>{item.price}</div>
-                        <div>{item.price * item.quantity}</div>
+                        <div>{Math.round(item.price * item.quantity*100)/100}</div>
                         <div>{item.location}</div>
                         <div>{item.comment}</div>
                     </div>
