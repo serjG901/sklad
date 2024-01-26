@@ -58,7 +58,7 @@ butOpenFile.addEventListener('click', async () => {
 
 	.match(/(.+)(?=NNNN)/gi)
 
-	.map((item:string)=> item.replaceAll("\t",'')
+	.map((item:string)=> item.replace(/\\t/g,'')
 
 	.split("HHHH").filter((str:string) => str!==""))
 
