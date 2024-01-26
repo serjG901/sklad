@@ -60,9 +60,10 @@ function App() {
   // The user did nt grant permission, return false.
   return false;
 }
-
+//@ts-ignore
     let fileHandle;
 const handleOpenFile = async () => {
+	//@ts-ignore
 	verifyPermission(fileHandle, true);
   [fileHandle] = await window.showOpenFilePicker()!;
 
