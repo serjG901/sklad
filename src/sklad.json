@@ -1,0 +1,3348 @@
+[
+    {
+        "inventaryNumber": 14495,
+        "name": "Генератор дизельный DAEWOO DDAE 10000 DSE-3 в кожухе с блоком автоматического управления генератором DAEWOO ATS 15 DDAE, страна изг. Корея",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 7400,
+        "location": "центральный склад",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14498,
+        "name": "Генератор дизельный DAEWOO DDAE 10000 DSE-3 в кожухе с блоком автоматического управления генератором DAEWOO ATS 15 DDAE, страна изг. Корея",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 7400,
+        "location": "центральный склад",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14830,
+        "name": "Детектор для поиска скрытых коммуникаций UT387B, страна происх. Китай",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 142.5,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14481,
+        "name": "Аккум, углошлифмашина BOSCH GWS 180-LI в кор.страна ввоза Китай",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 727.41,
+        "location": "у рабочих в эксплуатации, коробка 7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14482,
+        "name": "Аккум. дрель-шуруповерт BOSCH GSR 180-LI в чем. страна ввоза Китай",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 538.9,
+        "location": "у рабочих в эксплуатации, паспорт 7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14480,
+        "name": "Аккум. перфоратор BOSCH GBH 180-LI в кор.страна ввоза Китай",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 676.03,
+        "location": "у рабочих в эксплуатации, коробка 7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14619,
+        "name": "Вентилятор Tefal Essential+ VF3910F0 (страна происхождения - Китай)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 144.5,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14421,
+        "name": "Видео оборудование (комплект)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 43169.74,
+        "location": "актовый зал Каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14828,
+        "name": "Водонагреватель Ariston ABS VLS PRO R 100 3700710",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 673.7,
+        "location": "бытовка рабочих Каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14411,
+        "name": "Воздуходувка Husqvarna 125BVX 952 71 56-45H (с зип)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 741.67,
+        "location": "у рабочих в эксплуатации",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14672,
+        "name": "Вычислитель \"СТРУМЕНЬ\" ВВ-07-К7-1NN0NN-67S/000/000/000-00,0/00-0А1U, НПООО \"ГРАН-СИСТЕМА-С\",РБ",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 486,
+        "location": "водомер гаража",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14420,
+        "name": "Звуковое оборудование (комплект)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 12630.76,
+        "location": "актовый зал Каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14414,
+        "name": "Комплект декоративных ограждений для каркасной ели (золотая тема) (9м)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 2583.33,
+        "location": "107",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14415,
+        "name": "Комплект освещения Классик (9м)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 3166.67,
+        "location": "107",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14416,
+        "name": "Комплект освещения Классик (9м)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 3166.67,
+        "location": "107",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 11776,
+        "name": "Машина вычислительная электронная персональная (ПЭВМ) \"Саммит Системз\" ТУ РБ 06077305.001-95",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 963.5,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 11206,
+        "name": "Модем-Факс",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 25.16,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14540,
+        "name": "Монитор \"HAFF\" Т238, страна происхождения БЕЛАРУСЬ",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 314,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": null,
+        "name": "МОНИТОР к ПЭВМ МАП-51 ",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 171.68,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14426,
+        "name": "Объемные буквы из пенопласта Размер 3840х1250х30мм",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 2546.9,
+        "location": "лифтовой хол 3 этаж Каз4",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14667,
+        "name": "Пылесос строительный TOTAL TVC13301 (в составе мешок бумажный 30л. WORTEX VC3016WS (3шт.) арт.0319220 (Китай)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 275,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14419,
+        "name": "Световое оборудование (комплект)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 10464.31,
+        "location": "актовый зал Каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14466,
+        "name": "Силовое оборудование",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 25261.27,
+        "location": "тп2606 передано от биржи (серые шкафы)",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14413,
+        "name": "Сосна каркасная Уральская, высота 9м, (цвет белый)",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 13083.33,
+        "location": "107",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14711,
+        "name": "Стремянка стеклопластиковая диэлектрическая с симметричной опорой (Летра) ССД-1,8",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 475.7,
+        "location": "центральный склад",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 14666,
+        "name": "Штроборез TOTAL TWLC1301",
+        "unit": "шт.",
+        "quantity": 1,
+        "price": 810,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9799,
+        "name": "Авт.  выкл. ВА47-63 2Р 40А 4,5кА х-ка С TDM SQ0218-0014",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 4.8,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8525,
+        "name": "Авт. выкл.ВА47-29 1Р 16А 4,5кА х-ка С TDM SQ0206-0074",
+        "unit": "шт",
+        "quantity": 11,
+        "price": 2.35,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9800,
+        "name": "Авт. выкл.ВА47-63 3Р 32А 4,5кА х-ка С TDM SQ0206-0112",
+        "unit": "шт",
+        "quantity": 11,
+        "price": 7.5,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9807,
+        "name": "Автомат. выкл. ВА47-63 2Р 40А 4,5кА х-ка С TDM",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 4.8,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8527,
+        "name": "Автомат. выкл.ВА47-63 2Р 32А 4,5кА х-ка С TDM",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 5.5,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8526,
+        "name": "Автоматы/ВА 47-63, 1л (ЭТП)/20А (С)",
+        "unit": "шт",
+        "quantity": 12,
+        "price": 3.1,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8528,
+        "name": "Автоматы/ВА 47-63, 2л (ЭТП)/32А (С)",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 5.5,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9722,
+        "name": "Аккумулятор Li-ion 18650,3000mAh,3.7V,с защитой (19.2*70.5мм) Li18650/3000",
+        "unit": "м",
+        "quantity": 28,
+        "price": 30.9,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10839,
+        "name": "Аксессуары для клемм ЭРА NO-222-05 Шина соединительная типа PIN для 1-ф нагр. 100А 54 мод, (20/100)",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 13.85,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385346,
+        "name": "Аналоговое суточное реле 3 модуля на din-рейку AP-30мин/24ч-16А-DIN TDM, Китай",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 29.9,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9898,
+        "name": "Арматура кноп. с клапаном  АН-01 ниж. подводка мет. РБМ",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 10,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9899,
+        "name": "Арматура кноп. с унив. клапаном  бок. подводка мет. РБМ",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 9.92,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6049,
+        "name": "Бесконтактный инфракрасный термометр DT-8806S",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 285,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8543,
+        "name": "Бокс ЩРВ-П-12 мод. встраив. пластик IP41 GENERICA ИЭК",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 12.49,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 11009,
+        "name": "Вентилятор накладной TDM 100  C (SQ1807-0001)",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 38.33,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9474,
+        "name": "Вилка В16-363",
+        "unit": "шт",
+        "quantity": 13,
+        "price": 2.13,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9473,
+        "name": "Вилка В6-215",
+        "unit": "шт",
+        "quantity": 15,
+        "price": 1.32,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8059,
+        "name": "Вилка ВП32-900",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 12.49,
+        "location": "7б3с3п",
+        "comment": "2 списать"
+    },
+    {
+        "inventaryNumber": 10594,
+        "name": "Всасывающая головка топливная FS BR200-600 BG SH56 86 SR200-450 TS420 FARMERTEC",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 6.67,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10837,
+        "name": "Вставка плавкая ППН-33 100/40А габарит 00С PROxima EKF fus-33/100/40",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 5.1,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10838,
+        "name": "Вставка плавкая ППН-33 160/63А габарит 00 PROxima EKF fus-33/160/63",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 5.85,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8531,
+        "name": "Выключатель 1-кл. СП 6А IP20 бел. С16-031 БЕЛТИЗ",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 2.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8532,
+        "name": "Выключатель 2-кл. СП 6А IP20 бел. С56-022 БЕЛТИЗ",
+        "unit": "шт",
+        "quantity": 22,
+        "price": 2.74,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10547,
+        "name": "Выключатель А1 10-2131 (03)",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 6.2,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8529,
+        "name": "Выключатель авт.диф.тока АВДТ 32 С16 30мА 4,5кА TDM SQ0202-0503",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 14.37,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9482,
+        "name": "Выключатель С1 10-874",
+        "unit": "шт",
+        "quantity": 40,
+        "price": 5.33,
+        "location": "7б4с2п",
+        "comment": "4 списать"
+    },
+    {
+        "inventaryNumber": 9483,
+        "name": "Выключатель С5 10-875",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 6.23,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10732,
+        "name": "Выключатель ШАВ2-6,0-0,75-2,0 ч",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 8,
+        "location": "7б3с3п пересортица: 3шт. черных, 3 шт. белых",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10590,
+        "name": "Головка триммерная Husqvarna T45X M12L 143R 535RXT 545RX 553RS (полуавто)",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 91.67,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9681,
+        "name": "Датчик движения (ИК) MS-200 встраив. 800Вт 360град. до 6м IP20 EKF",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 24.32,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8041,
+        "name": "Декоративная подсветка светодиодная ЭРА WL7 WH+WH 6Вт IP54 белый",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 52.95,
+        "location": "7б3с1п",
+        "comment": "1 списать"
+    },
+    {
+        "inventaryNumber": 8504,
+        "name": "Держатель д/туалетной бумаги",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 3.73,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5781,
+        "name": "Дозатор жидкого мыла сенсорный, белый, пластик 500мл. Gfmark",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 73.63,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10731,
+        "name": "Дюбель ЮЛИГ.758531.007 (500шт)",
+        "unit": "упак",
+        "quantity": 1,
+        "price": 25.66,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10549,
+        "name": "Дюбель-гвоздь ДГ6х40",
+        "unit": "шт",
+        "quantity": 204,
+        "price": 0.08,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9987,
+        "name": "Заглушка d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 0.1,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9873,
+        "name": "Заглушка вн. 1/2\" LD",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 0.95,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9874,
+        "name": "Заглушка вн. 3/4\" РТП",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 1.47,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6499,
+        "name": "Заглушка внутр. канализации 50",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 0.36,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9891,
+        "name": "Заглушка латунная НР 1/2\" Conex Banningen",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 1.8,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9875,
+        "name": "Заглушка нар. 3/4\" РТП",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 1.48,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9802,
+        "name": "Звонок ЭРА С91-2 беспроводной, две кнопки (нов.упак)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 22.05,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9794,
+        "name": "Изолента ПВХ 0,15*19мм черная (рул.20м TDM SQ0526-0006",
+        "unit": "шт",
+        "quantity": 71,
+        "price": 1.08,
+        "location": "7б1с3п",
+        "comment": "2списать"
+    },
+    {
+        "inventaryNumber": 8546,
+        "name": "Кабель АВВГ-Пнг(А)-LS 2х2.5 ОК (N) 0,66кВ (бухта) (м)",
+        "unit": "м",
+        "quantity": 228,
+        "price": 0.62,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7197,
+        "name": "Кабель АВВГнг (А) 5х50 (ож)-1",
+        "unit": "км",
+        "quantity": null,
+        "price": 10873.33,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7360,
+        "name": "Кабель ВВГ-П 2*2,5-0,66",
+        "unit": "м",
+        "quantity": null,
+        "price": 1.39,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9721,
+        "name": "Кабель витая пара U/UTP кат.5E 4х2х24 AWG solid CU PVC Generica сер.(м) ITK BC1-C5E04-111-305-G",
+        "unit": "м",
+        "quantity": 270,
+        "price": 0.7,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385022,
+        "name": "Кабель КГ 5х2,5",
+        "unit": "м",
+        "quantity": null,
+        "price": 2600,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 113780,
+        "name": "Калькулятор 12 разрядов",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 7.56,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10962,
+        "name": "Клей Ecolux Морозоустойчивый универсальный (1л)",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 9.72,
+        "location": "7б1с3п",
+        "comment": "1 списать"
+    },
+    {
+        "inventaryNumber": 10593,
+        "name": "Кожух защитный 135R 143R 236R 535RX комбинированный",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 99.17,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9992,
+        "name": "Компенсирующая петля d20",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 2.27,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10592,
+        "name": "Комплект - Защитное приспособление FS55-480 FARMERTEC",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 55.89,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9941,
+        "name": "Коннектор RJ-11 (6p4c), (нож с 2-мя зубцами).Netko",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 0.07,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9940,
+        "name": "Коннектор RJ-9 (4p4c) для телефонных трубок (нож с 2-мя зубцами), Netko Optima",
+        "unit": "шт",
+        "quantity": 22,
+        "price": 0.06,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9484,
+        "name": "Коробка монтажная К-205",
+        "unit": "шт",
+        "quantity": 24,
+        "price": 1.06,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5862,
+        "name": "Коробка монтажная К-220 ",
+        "unit": "шт",
+        "quantity": 55,
+        "price": 2.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10548,
+        "name": "Коробка монтажная КМ-292",
+        "unit": "шт",
+        "quantity": 38,
+        "price": 1.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8542,
+        "name": "Коробка распределительная ОП 85х85х40мм IP55 KP2603",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 1.9,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8539,
+        "name": "Коробка установочная СП 68(65)х45 блочная SchE IMT35100",
+        "unit": "шт",
+        "quantity": 53,
+        "price": 0.85,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10431,
+        "name": "Коронка алмазная по бетону 25мм Hilberg Laser",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 52.44,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10432,
+        "name": "Коронка алмазная по бетону 40мм Hilberg Laser М16/SDS+",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 55.52,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10433,
+        "name": "Коронка алмазная по бетону 68*150 мм Hilberg Laser Deep Drill",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 102.27,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10434,
+        "name": "Коронка алмазная по бетону 72*150 мм Hilberg Laser Deep Drill",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 106.66,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10435,
+        "name": "Коронка алмазная по бетону 82*150 мм Hilberg Laser Deep Drill",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 112.18,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10589,
+        "name": "Косильная головка AutoCut 46-2 Holzfforma",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 49.17,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5717,
+        "name": "Кран латунный шаровый 11Б27п1 Ду-20 рычаг Г-Г",
+        "unit": "шт",
+        "quantity": 13,
+        "price": 3.66,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10606,
+        "name": "Кран писсуарный ZOLLEN PUSH нажимной (арт.РU4264ОЗ61) ",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 46.38,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5721,
+        "name": "Кран шар ст 11с67п Ду40 Ру40 фл FORTECA 183.1.040.04",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 51.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9973,
+        "name": "Кран шар. 1/2\" В-В ручка-бабочка (Valfex)",
+        "unit": "шт",
+        "quantity": 44,
+        "price": 5.06,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9975,
+        "name": "Кран шар. 1/2\" В-Н ручка-бабочка (Valfex)",
+        "unit": "шт",
+        "quantity": 42,
+        "price": 5.75,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9972,
+        "name": "Кран шар. 1/2\" со штуцером (Valfex)",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 7.98,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9974,
+        "name": "Кран шар. 3/4\" В-В ручка-бабочка (Valfex)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 8.15,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9976,
+        "name": "Кран шар. 3/4\" В-Н ручка-бабочка (Valfex)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 8.98,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10963,
+        "name": "Кран шаровый лат. полнопроходной ММ рыч. Ду 25 хром. LD Pride (LD 47.301.25)",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 21.25,
+        "location": "7б1с2п",
+        "comment": "2 списать"
+    },
+    {
+        "inventaryNumber": 10604,
+        "name": "Крепление для писсуара",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 1.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6503,
+        "name": "Крепление трубы ф.108 с дюб.ст.(4\",106-111мм) М8/80",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 2.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10269,
+        "name": "Круг отрезной мет. 41 125  х 1,2  х  22.23 А 54 S BF 80 мет+нерж.ех.",
+        "unit": "шт",
+        "quantity": 16,
+        "price": 0.61,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9326,
+        "name": "Лампа LED A60-9W-12/48V-840-E27 ЭРА (диод. груша, 9Вт, 12/48В, нейтр. Е27)",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 5.4,
+        "location": "7б3с2п",
+        "comment": "10 списать"
+    },
+    {
+        "inventaryNumber": 9327,
+        "name": "лампа светодиодная LED P45-9W-840-E14 ЭРА QX (диод.шар. 6,6Вт, нейтр. Е14)",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 2,
+        "location": "7б3с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9334,
+        "name": "Лампа светодиодная LED T8-20W-865-G13-1200mm (диод.труб.стекл, поворотный цоколь, пенка)",
+        "unit": "шт",
+        "quantity": 16,
+        "price": 3.5,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9330,
+        "name": "Лампа светодиодная STD LED T8-10W-865-G13-600mm G13 10Bт трубка стеклянная (поворотный цоколь)",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 3.3,
+        "location": "7б3с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10833,
+        "name": "Лампочка светодиодная ЭРА RED LINE LED A60-15W-865-E27 R E27/E27 15 Bт груша холодный дневной свет",
+        "unit": "шт",
+        "quantity": 39,
+        "price": 1.6,
+        "location": "7б3с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9969,
+        "name": "Лен сантехнический (в косах) (100г) UNIGARN",
+        "unit": "шт",
+        "quantity": null,
+        "price": 4.69,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10867,
+        "name": "Лента алюминиевая армированная STARFIX 50ммх40м (SMP-55561-1)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 9.2,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10602,
+        "name": "Локтевой дозатор HOR-D-004A",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 33.36,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9902,
+        "name": "Манометр МП100М5-1,6Мпа ",
+        "unit": "шт",
+        "quantity": 28,
+        "price": 13.5,
+        "location": "7б2с3п",
+        "comment": "3 списать"
+    },
+    {
+        "inventaryNumber": 9901,
+        "name": "Манометр МП100М5-2,5Мпа ",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 13.5,
+        "location": "7б2с3п",
+        "comment": "4 списать"
+    },
+    {
+        "inventaryNumber": 9983,
+        "name": "Муфта d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 47,
+        "price": 0.12,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10404,
+        "name": "Муфта PPRC c BP 20х3/4 MeerPlast",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 2.15,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10399,
+        "name": "Муфта PPRC с BP 20х1/2 MeerPlast",
+        "unit": "шт",
+        "quantity": 21,
+        "price": 1.33,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10401,
+        "name": "Муфта PPRC с HP 20х1/2 MeerPlast",
+        "unit": "шт",
+        "quantity": 27,
+        "price": 1.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10400,
+        "name": "Муфта PPRC с HP 20х3/4 MeerPlast",
+        "unit": "шт",
+        "quantity": 26,
+        "price": 1.53,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9886,
+        "name": "Муфта вн. 1/2\"  LD",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 1.92,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9979,
+        "name": "Муфта разъемная внутренняя d20х3/4\" (Valfex)",
+        "unit": "шт",
+        "quantity": 66,
+        "price": 3.22,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9978,
+        "name": "Муфта разъемная наружная d20х3/4\"  ",
+        "unit": "шт",
+        "quantity": 49,
+        "price": 3.45,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9977,
+        "name": "Муфта разъемная наружная d20х3/4\"  (Valfex)",
+        "unit": "шт",
+        "quantity": 31,
+        "price": 3.45,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9887,
+        "name": "Муфта ред. вн.- вн. 3/4\" х 1/2\"  LD",
+        "unit": "шт",
+        "quantity": 30,
+        "price": 2.48,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9900,
+        "name": "Набор для крепления унитаза 6х70 мм   STARFIX",
+        "unit": "упак",
+        "quantity": 17,
+        "price": 0.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10505,
+        "name": "Набор изолированных наконечников М-950-4 КВТ 75488",
+        "unit": "упак",
+        "quantity": 1,
+        "price": 214.93,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9467,
+        "name": "Набор муфт для саморегулирующего кабеля",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 12.5,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9991,
+        "name": "Набор цветных удлиненных заглушек 1/2\" (компл. 2 шт.) (синий/красный) Valfex",
+        "unit": "компл",
+        "quantity": 5,
+        "price": 1.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9466,
+        "name": "Нагревательный кабель т.м.ProTrace SLL 16-2CR",
+        "unit": "м",
+        "quantity": 100,
+        "price": 8,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9889,
+        "name": "Ниппель нар.-нар. 3/4  LD",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 2.36,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385221,
+        "name": "Номерок прозрачный #101",
+        "unit": "шт",
+        "quantity": 250,
+        "price": 0.9,
+        "location": "7б1с2п",
+        "comment": "где 50 шт???"
+    },
+    {
+        "inventaryNumber": 9989,
+        "name": "Опора d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 70,
+        "price": 0.17,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5738,
+        "name": "Отвод PPSU Press 90 с пресс-кольцом 16/2х16/2 1009068007 (К-900400)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 6.94,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5741,
+        "name": "Отвод фиксируемый PPSU Press с пресс-кольцом 20х2/G1/2\" 1009285013 (К-905001)",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 12.82,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9968,
+        "name": "Паста уплотнительная MasterFlax 250гр. (банка)",
+        "unit": "шт",
+        "quantity": null,
+        "price": 9.05,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9890,
+        "name": "Переход вн.-нар. 3/4*1/2 General Fittings",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 3.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10098,
+        "name": "Перчатки х/б с нитриловым покрытием манжета-крага",
+        "unit": "пара",
+        "quantity": 5,
+        "price": 4.93,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10097,
+        "name": "Перчатки х/б с нитриловым покрытием манжета-резинка",
+        "unit": "пара",
+        "quantity": 5,
+        "price": 4.65,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10603,
+        "name": "Писсуар Белый S1 SANITA OРИОН (PS/Orion/Mech/WHT.G/S1)  ",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 84.45,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9892,
+        "name": "Подводка гибкая , Nylon, Lt иголка м10 длинная - гайка 1/2 80см (пара) AV Engineering",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 3.75,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9893,
+        "name": "Подводка гибкая , Nylon, Lt иголка м10 короткая - гайка 1/2 80см (пара) AV Engineering",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 3.25,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9894,
+        "name": "Подводка гибкая , SUS, гайка 1/2 - гайка 1/2  60см AV Engineering",
+        "unit": "шт",
+        "quantity": 29,
+        "price": 2.71,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9895,
+        "name": "Подводка гибкая , SUS, гайка 1/2 -штуцер 1/2  60см AV Engineering",
+        "unit": "шт",
+        "quantity": 14,
+        "price": 3.1,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9896,
+        "name": "Подводка гибкая , SUS,иголка м10 длинная  - гайка 1/2 60см AV Engineering",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 3.05,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9897,
+        "name": "Подводка гибкая , SUS,иголка м10 короткая  - гайка 1/2 60см AV Engineering",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 2.6,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5621,
+        "name": "Подводка гибкая для воды гайка 1/2 - гайка 1/2 80см G.Iauf",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 2.76,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5644,
+        "name": "Подводка гибкая для воды гайка 3/4 - гайка 3/4 60 см.",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 5.92,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9801,
+        "name": "Прожектор светодиодный 30Вт 6500К IP65 2400лм с датчиком Super-Slim КОСМОС",
+        "unit": "шт",
+        "quantity": 12,
+        "price": 24.67,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9696,
+        "name": "Радиатор биметаллический BiLux Plus R500, с универ ком-от для присоединения D42 1х3/4 RAL 9016",
+        "unit": "шт",
+        "quantity": 17,
+        "price": 295,
+        "location": "107",
+        "comment": "пересчет"
+    },
+    {
+        "inventaryNumber": 115400,
+        "name": "Ремкомплект смесителя \"Елочка\", РФ",
+        "unit": "шт",
+        "quantity": 11,
+        "price": 0.73,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9678,
+        "name": "Розетка Werkel W5073101",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 34.41,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8534,
+        "name": "Розетка двойная 2П+3 с защ. шт. 16А 250В белая \"Таймыр\" TDM SQ1814-0018",
+        "unit": "шт",
+        "quantity": 33,
+        "price": 3.16,
+        "location": "7б4с2п",
+        "comment": "3 списать"
+    },
+    {
+        "inventaryNumber": 9475,
+        "name": "Розетка Р16-467",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 16.01,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9476,
+        "name": "Розетка Р16-9181 серый",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 6.37,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10546,
+        "name": "Розетка РА16-0152 (03)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 6.72,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9481,
+        "name": "Розетка РА16-0182",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 9.14,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10733,
+        "name": "Розетка РПП32-901",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 13.92,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10734,
+        "name": "Розетка РР16-9122 серый",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 4.35,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8535,
+        "name": "Розетка РС 16-757 трехместная для скрытой установки с заземляющим контактом на шинах",
+        "unit": "шт",
+        "quantity": 51,
+        "price": 10.85,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9478,
+        "name": "Розетка РС16-339",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 4.39,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9479,
+        "name": "Розетка РС16-343",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 5.05,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9477,
+        "name": "Розетка РС16-344",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 3.96,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9480,
+        "name": "Розетка РС16-754",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 9.25,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9988,
+        "name": "С-Перекрещивание d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 0.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9561,
+        "name": "Светильник переносной УП-2Р круглая вилка 2р/15метров TDM SQ0306-0008",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 27.11,
+        "location": "7б3с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9680,
+        "name": "Светильник светодиодный 36W 4000K 595х595х19мм",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 28.8,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9447,
+        "name": "Светильник светодиодный Slim-16/TUBE 16Bт 4000K IP67 1900лм накладной подвесной с проходной проводкой CSVT",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 55,
+        "location": "7б3с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9332,
+        "name": "Светильник светодиодный ДКУ 18 100W АС-0 IP66 5000К",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 148,
+        "location": "7б3с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9084,
+        "name": "Светильник уличный светодиодный консольный ДКУ СOBRA 50вт IP65 5000К (арт.OY8001-50W)",
+        "unit": "шт",
+        "quantity": 22,
+        "price": 45,
+        "location": "7б3с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9346,
+        "name": "Световая гирлянда LED-FRSL-100L, 10м 24V., стринг-лайт, цвет синий+белый мигающий, без выпрямителя",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 90,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9345,
+        "name": "Световая гирлянда стринг-лайт LED-FRSL-100L, 10м 24V с эффектом мерцания, бп, без выпрямителя, цвет синий+белый мерцающий",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 90,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9077,
+        "name": "Светодиодный универсальный светильник UNI-595х595х19мм 36Вт 6500К 3200Лм IP40 Призма",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 24,
+        "location": "7б3с2п",
+        "comment": "11 списать"
+    },
+    {
+        "inventaryNumber": 10591,
+        "name": "Свеча зажигания Husqvarna HQT-1 2T",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 11.67,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9970,
+        "name": "Силикон Profil санитарный белый 270мл",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 7.51,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9995,
+        "name": "Сифон АНИ гофр. универс. 1 1/2\" нж-ГТ 40/50 1,50м (G116)",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 8.54,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10605,
+        "name": "Сифон для писсуара бут лит/вып 1 1/4'x40 гофр 40х40/50 АНИ Пласт U0115 (нарцисс, дельта, rosa mini)",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 12.45,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5713,
+        "name": "Сифон для умывальника 1 1/4х40 с гибкой трубой 40х40/50 S1015-35 Aquant",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 3.8,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9996,
+        "name": "Сифон удлиненный Ани для умывальника 1 1/4\" х 40, нерж. сетка, с гибкой трубой 40х40/50 до 0.7 м (С1015)",
+        "unit": "шт",
+        "quantity": 9,
+        "price": 8.93,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5712,
+        "name": "Смеситель для кухни SL86-004-15",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 24.07,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9994,
+        "name": "Смеситель для кухни с коротким поворот. изливом (крепление гайка) В45-029ВМ ",
+        "unit": "шт",
+        "quantity": 25,
+        "price": 31.26,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6510,
+        "name": "Смеситель для мойки моно L 4196",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 29.61,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5751,
+        "name": "Соединитель PPSU press 20х2/20х2 1009042015 (К-900251)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 7.83,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5746,
+        "name": "Соединитель press с пресс-кольцом с внутренней резьбой 16х2 G1/2 1009044002 (К-900100)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 6.12,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5744,
+        "name": "Соединитель press с пресс-кольцом с внутренней резьбой 20х2 G1/2 1009042120 (К-900101)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 8.89,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5745,
+        "name": "Соединитель press с пресс-кольцом с внутренней резьбой 20х2 G3/4 1009044003 (К-900102)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 10.26,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5742,
+        "name": "Соединитель press с пресс-кольцом с наружной резьбой 16х2 G1/2 1009045005 (К-900000)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 7.5,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5748,
+        "name": "Соединитель press с пресс-кольцом с наружной резьбой 20х2 G1/2 1009045009 (К-900001)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 7.2,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5749,
+        "name": "Соединитель press с пресс-кольцом с наружной резьбой 20х2 G3/4 1009042128 (К-900002)",
+        "unit": "шт",
+        "quantity": 6,
+        "price": 8.52,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10836,
+        "name": "Строительно-монтажные клеммы СМК-412 (2х2,5мм2) ЭНЕРГИЯ",
+        "unit": "упак",
+        "quantity": null,
+        "price": 13.43,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10835,
+        "name": "Строительно-монтажные клеммы СМК-413 (3х2,5мм2) ЭНЕРГИЯ",
+        "unit": "упак",
+        "quantity": null,
+        "price": 14.63,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10834,
+        "name": "Строительно-монтажные клеммы СМК-415 (5х2,5мм2) ЭНЕРГИЯ",
+        "unit": "упак",
+        "quantity": null,
+        "price": 22.64,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10936,
+        "name": "Стяжки нейлоновые НСС \"EasyFix\" 3*150 (б) (100шт.) (Fortisflex)",
+        "unit": "упак",
+        "quantity": 30,
+        "price": 1.51,
+        "location": "7б1с3п",
+        "comment": "11 списать"
+    },
+    {
+        "inventaryNumber": 10937,
+        "name": "Стяжки нейлоновые НСС \"EasyFix\" 3*200 (б) (100шт.) (Fortisflex)",
+        "unit": "упак",
+        "quantity": 30,
+        "price": 1.93,
+        "location": "7б1с3п",
+        "comment": "1 списать"
+    },
+    {
+        "inventaryNumber": 385031,
+        "name": "Счетчик активной электрической энергии трехфазный СЕ 301 BY R33 146 JAVZ",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 208.13,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 384748,
+        "name": "Топор 1250гр деревянная рукоятка 700мм, Польша",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 24.28,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10964,
+        "name": "Трап гор вып 110 с реш из пласт 15х15 ТА1110",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 9.18,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9986,
+        "name": "Тройник d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 12,
+        "price": 0.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5736,
+        "name": "Тройник PPSU Press с пресс-кольцом 16х2/16х2/16х2 1009257007 (К-900500)",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 8.84,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5737,
+        "name": "Тройник PPSU с пресс-кольцом 20х2/20х2/20х2 1009257009 (К-900501)",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 12.26,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9982,
+        "name": "Труба PN20 d20 армир. стекловолокном (Valfex)",
+        "unit": "пог.м",
+        "quantity": null,
+        "price": 1.17,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9993,
+        "name": "Труба гофрированная  25 мм, красная (на 20)",
+        "unit": "пог.м",
+        "quantity": 50,
+        "price": 0.26,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7195,
+        "name": "Труба гофрированная гибкая двустенная гибкая ТГД-Г-м 110, SN8, с внутр.металлич.протяжкой",
+        "unit": "м",
+        "quantity": 5,
+        "price": 3.52,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6506,
+        "name": "Труба для внутр. канал. 50х1,8х2000мм",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 4.38,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5719,
+        "name": "Труба ПВХ 110х1.0 АК",
+        "unit": "шт",
+        "quantity": 23,
+        "price": 3.46,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5720,
+        "name": "Труба ПВХ 50х1.0 АК",
+        "unit": "шт",
+        "quantity": 25,
+        "price": 1.33,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9984,
+        "name": "Угольник 45* d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 46,
+        "price": 0.1,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9985,
+        "name": "Угольник 90* d20 (Valfex)",
+        "unit": "шт",
+        "quantity": 46,
+        "price": 0.13,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10397,
+        "name": "Угольник PPRC с BP 20х1/2 MeerPlast",
+        "unit": "шт",
+        "quantity": 15,
+        "price": 1.39,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10398,
+        "name": "Угольник PPRC с HP 20х1/2 MeerPlast",
+        "unit": "шт",
+        "quantity": 15,
+        "price": 2.47,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9872,
+        "name": "Удлинитель гибкий для унитаза, армированный 550мм AV Engineering",
+        "unit": "шт",
+        "quantity": 13,
+        "price": 4.7,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9565,
+        "name": "Удлинитель на катушке 4х20м без заземл. 16А IP20 3.5кВт Союз",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 81.48,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9566,
+        "name": "Удлинитель на катушке 4х40м без заземл. 16А 3.5кВт Союз",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 142.81,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9567,
+        "name": "Удлинитель с сетевым фильтром 5х3м с заземл. 10А IP20 500SH-3-B CCA 3x0.75 черн. BURO 992293",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 17.22,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9485,
+        "name": "Удлинитель У10-298 30м",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 79.37,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9486,
+        "name": "Удлинитель У16-327 5м",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 43.21,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10436,
+        "name": "Удлинительный шланг (3,5 м)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 90.85,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9947,
+        "name": "УЗО ВД1-63 2Р 25А 30мА",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 28.65,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10600,
+        "name": "Умывальник керам. Альбано 55 с/о, белый с1 с креплением",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 45.14,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385261,
+        "name": "Умывальник с отверстием, РФ",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 26.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115918,
+        "name": "Унитаз ЦОП Стиль-N белый",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 22.29,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10601,
+        "name": "Унитаз-компакт Лаго МС Инкоэр, белый с1",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 136.29,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9562,
+        "name": "Фонарь GOLDEN SHARK Volcano HHP-9035",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 56.35,
+        "location": "7б3с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9563,
+        "name": "Фонарь светодидный аккум. 3Вт+3Вт (зел.) ЮПИТЕР",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 33.02,
+        "location": "7б3с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5716,
+        "name": "Хомут металл. в комплекте 40-45 (1 1/4\")",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 0.65,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5715,
+        "name": "Хомут металл. с гайкой (М80) 58-64 2\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.77,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10824,
+        "name": "Хомут ремонтный нержавеющий усиленный длина 300 D 82-90",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 139.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10825,
+        "name": "Хомут ремонтный нержавеющий усиленный длина 300 D 87-97",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 142.86,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10394,
+        "name": "Хомут трубный STI 20-23 (1/2\")",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 0.59,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10395,
+        "name": "Хомут трубный STI 25-28 (3/4\")",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 0.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5714,
+        "name": "Хомут трубный Ду108 (107-115) 4\"",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 1.27,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5734,
+        "name": "Хомут штампованный Ду25",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 4.51,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5731,
+        "name": "Хомут штампованный Ду50",
+        "unit": "шт",
+        "quantity": 10,
+        "price": 8.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10403,
+        "name": "Шина N \"ноль\" на DIN-изол.ШНИ 6*9-12-Д-жёлтый HLT",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 2.42,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10402,
+        "name": "Шина N \"ноль\" на DIN-изол.ШНИ 6*9-12-Д-синий HLT",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 2.19,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9980,
+        "name": "Штуцер прям.с накид.гайк.латун.и прокл.1/2\"",
+        "unit": "шт",
+        "quantity": 30,
+        "price": 3.76,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9981,
+        "name": "Штуцер прям.с накид.гайк.латун.и прокл.3/4\" ",
+        "unit": "шт",
+        "quantity": 16,
+        "price": 5.55,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385067,
+        "name": "Щит распред. встраиваемый  ЩРВ-24 (390х340х120) IP31 EKF Proxima, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 29.68,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10396,
+        "name": "Щит с монтажной панелью ЩМП-00 IP31 (270х210х140) EKF Basic mb22-00-bas",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 31.36,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9725,
+        "name": "Щит ЩРН-36 IP54 EKF mb24-36",
+        "unit": "м",
+        "quantity": 1,
+        "price": 142.59,
+        "location": "7б2с1п",
+        "comment": "исправить единицу измерения"
+    },
+    {
+        "inventaryNumber": 385061,
+        "name": "ЩУРв-3/30зо-1 38 УХЛЗ IP31, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 49.92,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10868,
+        "name": "Электрод для углеродистой стали 3 мм СЗСЭ Континент МР-3 Плазма 2,5 кг",
+        "unit": "упак",
+        "quantity": null,
+        "price": 34.61,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9679,
+        "name": "Элемент питания алкалиновый А23/LR23A 12B Alkaline для пультов сигнализации BL-5 (уп.5шт) ФАZA",
+        "unit": "упак",
+        "quantity": 3,
+        "price": 5.9,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9723,
+        "name": "Ящик силовой ЯБПВУ 250А с ПН-2 (с)",
+        "unit": "м",
+        "quantity": 1,
+        "price": 101.19,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9170,
+        "name": "Боты диэлектрические р.46-345",
+        "unit": "пара",
+        "quantity": 1,
+        "price": 49.11,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9169,
+        "name": "Перчатки диэлектрические бесшовные №4 (Армавир)",
+        "unit": "пара",
+        "quantity": 1,
+        "price": 28.04,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381776,
+        "name": "Жилет \"Белресурсы\", РБ, ООО \"Студия Кравец\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 53.65,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381711,
+        "name": "Жокейка (бейсболка) мужская арт. 2099, Чешская Республика",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 10.61,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381775,
+        "name": "Костюм спортивный \"Белресурсы\", РБ, ООО \"Студия Кравец\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 100,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9162,
+        "name": "Кресло EVERPROF ULTRA сетка черная, механизм качания",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 103.33,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381777,
+        "name": "Майка с коротким рукавом \"Белресурсы\", РБ, ООО \"Студия Кравец\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 24,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 380912,
+        "name": "Насос (Гном) 25/20",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 470,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 336,
+        "name": "Принтер 1022",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 75.84,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": null,
+        "name": "Стол(прав.) письм. ДЛ20/1400пр.(кальв.) Инв.№82/М",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 6.82,
+        "location": "413",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8843,
+        "name": "Флаг РБ 2*3 м",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 87.5,
+        "location": "крыша каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 383624,
+        "name": "Форма (с нанесением логотипа), стр. происх. Российская Федерация",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 65,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9631,
+        "name": "Аккум, углошлифмашина BOSCH GWS 180-LI в кор. (18.0 В, без аккумулятора, диск 125х22.0)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 318,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9629,
+        "name": "Аккумулятор 18 B 2х5.0 Ah Professional (2 шт) + зарядное GAL 1880 CV",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 390.44,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9632,
+        "name": "Аккумулятор GBA 18 B 2х4.0 Ah Professional (2шт) + зарядное GAL 18V-40, BOSC",
+        "unit": "Hшт",
+        "quantity": 1,
+        "price": 293.88,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9871,
+        "name": "Аккумулятор GBA 18 B 2х5.0 Ah Professional (2шт) + зарядное GAL 1880 CV, BOSC",
+        "unit": "Hшт",
+        "quantity": 2,
+        "price": 400.63,
+        "location": "у рабочих в эксплуатации, коробка 7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8265,
+        "name": "Аппарат для нагрева и охлаждения питьевой воды Ecotronic V21-LE cabinet black-silver",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 113.75,
+        "location": "2 шт. 3-й этаж каз4, 2 шт. 4-й этаж каз4",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 34,
+        "name": "Баллон для кислорода",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 0.33,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 117,
+        "name": "Баллон кислород.",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 10.46,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6,
+        "name": "Баллон пропан 50 л.",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 0.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 384468,
+        "name": "Бокс ЩРП-П-6 модулей навесной пластик IP41 ИЭК, Россия",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 8.25,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2261,
+        "name": "Бур-сверло SDSр 20*1000*950 НАWERA, Германия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 84.27,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385070,
+        "name": "Ваттметр ROBITON PM-2 BL1",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 24.79,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2496,
+        "name": "Ведро с педалью 7л. хром Niagara, Польша",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 27.09,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8161,
+        "name": "Диспенсер TORK Matic д/полотенец в рулонах с сенсером, металл, Н1, арт. 460001-38",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 344.82,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 5781,
+        "name": "Дозатор жидкого мыла сенсорный, белый, пластик 500мл. Gfmark",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 36.82,
+        "location": "7б1с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 116057,
+        "name": "Забор декотративный",
+        "unit": "компл",
+        "quantity": 1,
+        "price": 343.36,
+        "location": "стоянка каз4 фасад",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6541,
+        "name": "Защитный экран на пункте охраны",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 255.55,
+        "location": "пункт охраны каз2",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381742,
+        "name": "Измерительный прибор DT-901, Индикатор порядка чередования фаз, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 92.09,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9951,
+        "name": "Индикатор напряжения UT15C UNI-T 13-1018",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 56.91,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9630,
+        "name": "Кейс система L-BOXX 136 BOSCH ",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 60.07,
+        "location": "7б2с1п - 2 шт., 2 шт. - у рабочих в эксплуатации",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 114851,
+        "name": "Клещи токоизмерительные М 266 (500В)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 19.72,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381246,
+        "name": "Комплект табличек (2шт.) разм. 80х210мм (\"Стой напряжение\", \"Не влезай - убьет\")",
+        "unit": "компл",
+        "quantity": 1,
+        "price": 23.16,
+        "location": "х",
+        "comment": "списать"
+    },
+    {
+        "inventaryNumber": 2570,
+        "name": "Корзина-пепельница напольная металлическая самогасящая 30л, Польша",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 179.56,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 382645,
+        "name": "Лебедка ручная TOR BHW-2600 (г/п 1.0т длина троса 10м.)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 219,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 336,
+        "name": "Лестница стремянка",
+        "unit": "шт",
+        "quantity": null,
+        "price": 1
+    },
+    {
+        "inventaryNumber": 55,
+        "name": "Лом",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 5.72,
+        "location": "7б1с1п в углу",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6263,
+        "name": "Метеостанция ДКУВ.080.403",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 215.1,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 379774,
+        "name": "Мини-пульт двухканальный Radio 8101-2М",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 31.2,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 116350,
+        "name": "Мини-пульт одноканальный",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 11.56,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 380972,
+        "name": "Мини-пульт одноканальный Radio 8101-1",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 30.5,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115660,
+        "name": "Молоток 0,2кг дер.ручка",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 2.69,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 443,
+        "name": "Молоток 500г с защитой",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.96,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 444,
+        "name": "Молоток 800г с защитой",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 1.4,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 384328,
+        "name": "Мультиметр цифровой МY64 Mastech (без поверки), Китай",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 61.67,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 383133,
+        "name": "Мультиметр цифровой серия \"МастерЭлектрик\" М-838 TDM (Китай)",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 8.18,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9955,
+        "name": "Набор диэлектрических накидных ключей НИИ-07 КВТ",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 147.94,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9954,
+        "name": "Набор диэлектрических однорожковых ключей (5предметов) НИИ-06 КВТ",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 104.09,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1997,
+        "name": "Набор ключей комбинир. 6-32мм 26шт, TORTUL, Тайвань",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 191.12,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 380644,
+        "name": "Набор сверел по мет. 1-10мм 10шт",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 32.45,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1998,
+        "name": "Набор слесарного инстр-та в чем, TORTUL, Тайвань",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 396.16,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8858,
+        "name": "Насос GO 10",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 155.5,
+        "location": "7б1с3п - замененный насос, установлен в кондиционер 313 каб",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7110,
+        "name": "Насос погружной Unipump FEKACUT V2200DF",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 311.25,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381188,
+        "name": "Пенополистирол экструдир. Пеноплекс Комфорт 1200х600х50мм., РФ",
+        "unit": "лист",
+        "quantity": null,
+        "price": 5.89,
+        "location": "7б1с4п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9628,
+        "name": "Перфоратор GBH 180-LI аккумуляторный (18V/без АКБ и ЗУ/2,0Дж/Коробка) BOSC",
+        "unit": "Hшт",
+        "quantity": 1,
+        "price": 290.89,
+        "location": "7б2с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115980,
+        "name": "Пила д/дыр 8ПР 33421, Латвия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 14.42,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1351,
+        "name": "Плакат \"заземлено\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.74,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1352,
+        "name": "Плакат \"не включать, работа на линии\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.7,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1348,
+        "name": "Плакат \"не включать, работают люди\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.69,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1349,
+        "name": "Плакат \"не влезай, убъет\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.91,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1350,
+        "name": "Плакат \"не открывать, работают люди\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.69,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1353,
+        "name": "Плакат \"стой.напряжение\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.91,
+        "location": "7б3с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 415,
+        "name": "Приспособление для захвата стекла",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 3.32,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2796,
+        "name": "Рамка ножовочная ручная",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 4.22,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 4812,
+        "name": "Сварочный аппарат для полимерных труб Solaris PW-1501, арт. Китай",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 40.26,
+        "location": "у рабочих в эксплуатации",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 37,
+        "name": "Стремянка алюм.",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 16.56,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2330,
+        "name": "Сушилка для рук Электролюкс EHDA/N-2500",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 282.23,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 384306,
+        "name": "Счетчик активной электрической энергии трехфазный СЕ 301 BY R33 JAVZ",
+        "unit": "шт",
+        "quantity": 3,
+        "price": 194.81,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 384305,
+        "name": "Счетчик электрической энергии СЕ 102 BY S6 148 AKV",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 73.71,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 381741,
+        "name": "Тестер DT-9130, Указатель напряжения, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 117.3,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115079,
+        "name": "Трос для растяжки в оплетке 2/3мм (200мп) DIN 3055",
+        "unit": "бухта",
+        "quantity": 1,
+        "price": 22.48,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2795,
+        "name": "Трос металлополимерный ПР-4 (100м.)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 42,
+        "location": "7б4с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 380292,
+        "name": "Труба гофрированная ПВХ 16 (100 м/уп) гибкая д/проклад. кабеля",
+        "unit": "м",
+        "quantity": 100,
+        "price": 0.21,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1474,
+        "name": "Углошлифмашинка",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 240.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3082,
+        "name": "Удлинитель на катушке 4-мя роз-ми 50см 3,5КВт с выкл.",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 105.19,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 383629,
+        "name": "Умывальник для дачи ЭлБЭТ Чистюля УМ-10 (металл), Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 71.62,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115863,
+        "name": "Хомут рем.L300mmD273-283mm",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 98.4,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2099,
+        "name": "Щиток сварщика",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 0.61,
+        "location": "7б1с1п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9443,
+        "name": "Электродвигатель АИР 56А2 У1 0,18кВт*3000 об/мин IM2181 кмфл d20=85 (ПРАКТИК) 3-220/380B 50Гц IP55 S1 кл.F син2ст2щ2к",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 52.5,
+        "location": "установлен в бомбоубежище Каз2 в венткомнате",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3128,
+        "name": "Электронасос Гном 10-10",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 175,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 116141,
+        "name": "Электронасос Гном 10*10 380, РФ",
+        "unit": "канистр",
+        "quantity": 1,
+        "price": 250.56,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 2572,
+        "name": "Электросушилка для рук Merida Smartflow, Польша",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 108,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 379862,
+        "name": "Электросушитель для рук 0,8 кВт, РФ",
+        "unit": "шт",
+        "quantity": 5,
+        "price": 61.2,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9756,
+        "name": "Розетка 1-ая (скрытая, с/з)+2USB, белая Rita Mutlusan",
+        "unit": "шт",
+        "quantity": 4,
+        "price": 21.12,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7493,
+        "name": "Аптечка первой медицинской помощи универсальная №1, сер. АУ-262",
+        "unit": "упак",
+        "quantity": 1,
+        "price": 39.28,
+        "location": "в эксплуатации у рабочих",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 6986,
+        "name": "Брелок бесконтактный ТК32-ЕМ7",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 3.46,
+        "location": "на рабочих ключах",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7493,
+        "name": "Аптечка первой медицинской помощи универсальная №1, сер. АУ-262",
+        "unit": "упак",
+        "quantity": 1,
+        "price": 39.28,
+        "location": "в эксплуатации у рабочих",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7172,
+        "name": "Лом и отходы алюминия прочие (3530415)",
+        "unit": "т",
+        "quantity": null,
+        "price": 1062.73,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 7078,
+        "name": "Отходы поливинилхлорида (5711601)",
+        "unit": "т",
+        "quantity": null,
+        "price": 136.67,
+        "location": "старый логотип на складе Брилевский55 (добрый кузовщик)",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115219,
+        "name": "Верхушка елочная 30см",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 1.83,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1631,
+        "name": "Гирлянда Led-шарики 10м",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 57.94,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1649,
+        "name": "Гирлянда Led-шарики мультиколор 10м",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 34.31,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1651,
+        "name": "Ель интерьерная Европейская 5м",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 1809.45,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3169,
+        "name": "Изделие световое светодиодное Верхушка Звезда",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 389.85,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1652,
+        "name": "Комплект световых подарков \"Красный\"",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 82.58,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3159,
+        "name": "Надпись прописная \"С Новым годом\" красная 230*90 см, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 295.97,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 115259,
+        "name": "Световой занавес светодиод.2х1,5м 1920(мигающий) белый IP44",
+        "unit": "шт",
+        "quantity": 11,
+        "price": 124.19,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1653,
+        "name": "Фигура \"Большая снежинка\" цвет белый 95*95",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 82.85,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 1630,
+        "name": "Фигура \"Большая снежинка\" цвет синий",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 126.64,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3158,
+        "name": "Фигура \"Снежинка\" цвет белый, размер 55*55 см, Россия",
+        "unit": "шт",
+        "quantity": 9,
+        "price": 73.2,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3156,
+        "name": "Фигура надувная \"Дед Мороз приветствует\", размер 150 см, внутр. подсветка, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 94.16,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 3157,
+        "name": "Фигура надувная \"Снеговик с метлой\", размер 120 см, внутр. подстветка, Россия",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 77.55,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8153,
+        "name": "Шар матовый, диаметр 150мм (цвет золотой)",
+        "unit": "шт",
+        "quantity": 15,
+        "price": 17.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8150,
+        "name": "Шар матовый, диаметр 150мм (цвет красный)",
+        "unit": "шт",
+        "quantity": 13,
+        "price": 17.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8151,
+        "name": "Шар матовый, диаметр 150мм (цвет серебро)",
+        "unit": "шт",
+        "quantity": 18,
+        "price": 17.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8152,
+        "name": "Шар матовый, диаметр 150мм (цвет синий)",
+        "unit": "шт",
+        "quantity": 9,
+        "price": 17.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8154,
+        "name": "Шар матовый, диаметр 200мм (цвет серебро)",
+        "unit": "шт",
+        "quantity": 33,
+        "price": 32.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8155,
+        "name": "Шар матовый, диаметр 200мм (цвет синий)",
+        "unit": "шт",
+        "quantity": 8,
+        "price": 32.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 8156,
+        "name": "Шар матовый, диаметр 250мм (цвет серебро+красный)",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 40,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9120,
+        "name": "Батарейки ЭРА LR20-2BL SUPER Alkaline",
+        "unit": "шт",
+        "quantity": 21,
+        "price": 3.35,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9877,
+        "name": "Ключ разводной 300 мм 38,1 мм Toptul AMAA3830",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 73.77,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9879,
+        "name": "Ключ трубный 1-1/2\" 440мм тип S Toptul DDAD1A48",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 107.01,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9878,
+        "name": "Ключ трубный 1\" 345мм тип S Toptul DDAD1A32",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 77.73,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9950,
+        "name": "Нож монтажника нержавеющая сталь двухсторонняя заточка лезвие 33мм Rexant",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 18.15,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10966,
+        "name": "Обжим ручной KRON HY3141A",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 15,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10123,
+        "name": "Розетка ТР24-032",
+        "unit": "шт",
+        "quantity": 34,
+        "price": 3.61,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10124,
+        "name": "Розетка ТР4-017",
+        "unit": "шт",
+        "quantity": 22,
+        "price": 2.32,
+        "location": "7б2с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385264,
+        "name": "Световая гирлянда LED-FRIL-296L, 4х1,5м, айсикл, цвет синий + белый мигающий, без выпрямителя, Китай 1500х4000",
+        "unit": "шт",
+        "quantity": 50,
+        "price": 145,
+        "location": "установлено на фасаде Каз4",
+        "comment": "в установку, часть списать вышедшие из строя"
+    },
+    {
+        "inventaryNumber": 385269,
+        "name": "Световая гирлянда LED-FRSL-100L, 10м, 24V, стринг-лайт, цвет белый + белый мигающий, без выпрямителя, Китай",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 52.5,
+        "location": "смонтировано на новогодних каркасных шарах (склад Брилевский55, добрый кузовщик)",
+        "comment": "в установку"
+    },
+    {
+        "inventaryNumber": 385268,
+        "name": "Световая гирлянда LED-FRSL-100L, 10м, 24V, стринг-лайт, цвет синий + белый мигающий, без выпрямителя, Китай",
+        "unit": "шт",
+        "quantity": 20,
+        "price": 52.5,
+        "location": "смонтировано на новогодних каркасных шарах (склад Брилевский55, добрый кузовщик)",
+        "comment": "в установку"
+    },
+    {
+        "inventaryNumber": 385266,
+        "name": "Световой мотив \"Снежинка\" LED MF-038, синяя, 33*29 см, мерцающая, Китай",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 57.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385267,
+        "name": "Световой мотив \"Снежинка\" LED MF-148, белая, 55*51 см, мерцающая, Китай",
+        "unit": "шт",
+        "quantity": 7,
+        "price": 82.5,
+        "location": "х",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9880,
+        "name": "Трубный ключ 3в1 Cheater настраиваемый стальной (48227314)",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 240,
+        "location": "7б2с2п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10941,
+        "name": "Устройство защиты от дугового пробоя (УЗДП) с автоматическим выключателем 1Р+N 16А (С) 6кА EKF PROxima Арт.afdd-2-16C-pro",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 289.73,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10938,
+        "name": "Устройство защиты от дугового пробоя (УЗДП) с автоматическим выключателем 1Р+N 25А (С) 6кА EKF PROxima Арт.afdd-2-25C-pro",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 289.73,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 10942,
+        "name": "Устройство защиты от дугового пробоя (УЗДП) с автоматическим выключателем 1Р+N 32А (С) 6кА EKF PROxima Арт.afdd-2-32C-pro",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 295.53,
+        "location": "7б1с3п",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385246,
+        "name": "Шар диаметром 1,5 м с подставкой",
+        "unit": "компл",
+        "quantity": 1,
+        "price": 2760,
+        "location": "каркасный новогодний шар, склад Брилевский55, добрый кузовщик",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 385245,
+        "name": "Шар диаметром 2 м с подставкой",
+        "unit": "шт",
+        "quantity": 1,
+        "price": 4240,
+        "location": "каркасный новогодний шар, склад Брилевский55, добрый кузовщик",
+        "comment": "х"
+    },
+    {
+        "inventaryNumber": 9119,
+        "name": "Эл-т питания ФОТОН 6LR61 ОР1",
+        "unit": "шт",
+        "quantity": 2,
+        "price": 3.8,
+        "location": "7б1с3п",
+        "comment": "х"
+    }
+]

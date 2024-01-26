@@ -43,7 +43,14 @@ const useSkladStore = create<SkladState>()(
             (set, get) => ({
                 items: [],
                 addItem: (newItem) =>
-                    set((state) => ({ items: [...state.items, newItem] })),
+                    set((state) => {
+                        const checkItem: null | Item = findItem(
+                            newItem.inventaryNumber,
+                            state.items
+                        );
+                        if (checkItem) return { items: state.items };
+                        return { items: [...state.items, newItem] };
+                    }),
                 deleteItem: (
                     deleteInventaryNumber,
                     deleteQuantity,
@@ -125,7 +132,7 @@ const useSkladStore = create<SkladState>()(
                         ],
                     })),
             }),
-            { name: "sklad" }
+            { name: "sklad2" }
         )
     )
 );

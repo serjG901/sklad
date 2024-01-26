@@ -1,7 +1,8 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import useSkladStore, { Item, SystemMessage } from "./store/store";
 import "./App.css";
-//@ts-ignore: Object is possibly 'null'.
+import JSON from "./sklad.json";
+
 function App() {
     const [items, addItem, deleteItem, systemMessages] = useSkladStore(
         (state) => [
@@ -11,6 +12,11 @@ function App() {
             state.systemMessages,
         ]
     );
+
+    useEffect(() => {
+        if (items.length === 0) JSON.forEach((item: Item) => addItem(item));
+    }, []);
+
     const deleteInventaryNumberRef = useRef<HTMLInputElement | null>(null);
     const deleteQuantityRef = useRef<HTMLInputElement | null>(null);
     const deleteCommentRef = useRef<HTMLInputElement | null>(null);
@@ -41,67 +47,36 @@ function App() {
             deleteCommentRef.current?.value || ""
         );
     }
-
-	async function verifyPermission(fileHandle: any, withWrite: boolean) {
-  const opts: {writable?:boolean,mode?:string} = {};
-  if (withWrite) {
-    opts.writable = true;
-    // For Chrome 86 and later...
-    opts.mode = 'readwrite';
-  }
-  // Check if we already have permission, if so, return true.
-  if (await fileHandle.queryPermission(opts) === 'granted') {
-    return true;
-  }
-  // Request permission to the file, if the user grants permission, return true.
-  if (await fileHandle.requestPermission(opts) === 'granted') {
-    return true;
-  }
-  // The user did nt grant permission, return false.
-  return false;
-}
-//@ts-ignore
     let fileHandle;
-const handleOpenFile = async () => {
-	//@ts-ignore
-	verifyPermission(fileHandle, true);
-  [fileHandle] = await window.showOpenFilePicker()!;
+    const handleOpenFile = async () => {
+        [fileHandle] = await window.showOpenFilePicker();
+        const file = await fileHandle.getFile();
+        const contents = await file.text();
+        const arr = contents
+            .match(/(.+)(?=NNNN)/gi)
+            .map((item: string) =>
+                item
+                    .replaceAll("\t", "")
+                    .split("HHHH")
+                    .filter((str: string) => str !== "")
+            )
+            .map((item: string[]) => ({
+                inventaryNumber: Number(item[0]),
+                name: item[1],
+                unit: item[2],
+                quantity: Number(item[4]),
+                price: parseFloat(item[3].replace(" ", "").replace(",", ".")),
+                location: item[6],
+                comment: item[7],
+            }));
+        arr.forEach((item: Item) => addItem(item));
+        console.log(arr);
+    };
 
-  const file = await fileHandle.getFile();
-
-  const contents = await file.text();
-
-  const arr = contents
-
-	.match(/(.+)(?=NNNN)/gi)
-
-	.map((item:string)=> item.replaceAll('\t','')
-
-	.split("HHHH").filter((str:string) => str!==""))
-
-	.map((item:string[]) => ({
-
-		inventaryNumber: Number(item[0]), 
-
-		name: item[1], 
-
-		unit: item[2], 
-
-		quantity: Number(item[4]), 
-
-		price: parseFloat(item[3].replace(" ",'').replace(',','.')), 
-
-		location: item[6], 
-
-		comment: item[7]}));
-
-  arr.forEach((item: Item)=> addItem(item));
-
-}
-
-	
     return (
-        <><button onClick={handleOpenFile}>open file</button> <br /><br />
+        <>
+            <button onClick={handleOpenFile}>open file</button> <br />
+            <br />
             <div>Delete Item</div>
             <div>
                 <div>
@@ -202,9 +177,10 @@ const handleOpenFile = async () => {
                     <div>Comment</div>
                     <div>DateTime</div>
                 </div>
-                {systemMessages.map(
-                    (systemMessage: SystemMessage, index: number) => (
+                {systemMessages
+                    .map((systemMessage: SystemMessage, index: number) => (
                         <div
+                            key={systemMessage.datetime}
                             style={{
                                 display: "grid",
                                 grid: "auto / repeat(4, 1fr)",
@@ -216,10 +192,9 @@ const handleOpenFile = async () => {
                             <div>{systemMessage.comment}</div>
                             <div>{systemMessage.datetime}</div>
                         </div>
-                    )
-                ).reverse()}
+                    ))
+                    .reverse()}
             </details>
-
             <br />
             <br />
             <details style={{ maxHeight: "100vh", overflow: "auto" }}>
@@ -237,6 +212,7 @@ const handleOpenFile = async () => {
                 </div>
                 {items.map((item: Item, index: number) => (
                     <div
+                        key={item.inventaryNumber}
                         style={{
                             display: "grid",
                             grid: "auto / repeat(9, 1fr)",
