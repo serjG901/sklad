@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import useSkladStore, { Item, SystemMessage } from "./store/store";
 import "./App.css";
-
+//@ts-ignore: Object is possibly 'null'.
 function App() {
     const [items, addItem, deleteItem, systemMessages] = useSkladStore(
         (state) => [
