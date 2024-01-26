@@ -14,7 +14,8 @@ function App() {
     );
 
     useEffect(() => {
-        if (items.length === 0) JSON.forEach((item: Item) => addItem(item));
+        //@ts-ignore
+        if (items.length === 0) JSON.forEach((item) => addItem(item));
     }, []);
 
     const deleteInventaryNumberRef = useRef<HTMLInputElement | null>(null);
