@@ -52,7 +52,7 @@ butOpenFile.addEventListener('click', async () => {
 
   const file = await fileHandle.getFile();
 
-  const contents = await file.text() || "";
+  const contents = await file.text();
 
   const arr = contents
 
