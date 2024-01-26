@@ -45,7 +45,9 @@ function App() {
     let fileHandle;
 const handleOpenFile = async () => {
   [fileHandle] = await window.showOpenFilePicker()!;
-fileHandle.queryPermission();
+fileHandle.queryPermission({
+    mode: "readwrite"
+			   });
   const file = await fileHandle.getFile();
 
   const contents = await file.text();
