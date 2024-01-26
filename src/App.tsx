@@ -42,12 +42,29 @@ function App() {
         );
     }
 
+	async function verifyPermission(fileHandle, withWrite) {
+  const opts = {};
+  if (withWrite) {
+    opts.writable = true;
+    // For Chrome 86 and later...
+    opts.mode = 'readwrite';
+  }
+  // Check if we already have permission, if so, return true.
+  if (await fileHandle.queryPermission(opts) === 'granted') {
+    return true;
+  }
+  // Request permission to the file, if the user grants permission, return true.
+  if (await fileHandle.requestPermission(opts) === 'granted') {
+    return true;
+  }
+  // The user did nt grant permission, return false.
+  return false;
+}
+
     let fileHandle;
 const handleOpenFile = async () => {
   [fileHandle] = await window.showOpenFilePicker()!;
-fileHandle.queryPermission({
-    mode: "readwrite"
-			   });
+verifyPermission(fileHandle, true);
   const file = await fileHandle.getFile();
 
   const contents = await file.text();
