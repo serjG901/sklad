@@ -1,0 +1,18 @@
+.updateTmc {
+    width: 90vw;
+}
+
+.updateTmc .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1rem;
+    background-color: var(--bg-color-table);
+    align-items: center;
+}
+.updateTmc input {
+    width: 80%;
+}
+.updateTmc button {
+    width: max-content;
+}

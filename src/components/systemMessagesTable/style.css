@@ -1,0 +1,50 @@
+.systemMessagesTable details {
+    max-height: 80vh;
+    overflow: auto;
+    position: relative;
+    min-width: 90vw;
+}
+.systemMessagesTable summary {
+    position: sticky;
+    top: 0;
+}
+
+.systemMessagesTable .grid {
+    display: grid;
+    grid: auto / 1fr 3fr 3fr 2fr 1fr;
+    gap: 4px;
+    background-color: var(--bg-color-table);
+}
+.systemMessagesTable .grid div {
+    padding: 4px;
+}
+.systemMessagesTable .grid div:nth-child(5n + 1) {
+    background-color: var(--bg-color-table-column-odd);
+}
+.systemMessagesTable .grid div:nth-child(5n + 2) {
+    background-color: var(--bg-color-table-column-even);
+}
+.systemMessagesTable .grid div:nth-child(5n + 3) {
+    background-color: var(--bg-color-table-column-odd);
+}
+
+.systemMessagesTable .grid div:nth-child(5n + 4) {
+    background-color: var(--bg-color-table-column-even);
+}
+
+.systemMessagesTable .grid div:nth-child(5n) {
+    background-color: var(--bg-color-table-column-odd);
+}
+
+.systemMessagesTable .orange {
+    color: rgb(255, 205, 113);
+}
+
+.systemMessagesTable .green {
+    color: rgb(131, 255, 131);
+}
+
+.systemMessagesTable .red {
+    color: rgb(255, 136, 136);
+}
+

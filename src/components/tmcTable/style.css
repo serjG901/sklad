@@ -1,0 +1,49 @@
+.tmcTable details {
+    max-height: 80vh;
+    overflow: auto;
+    position: relative;
+    min-width: 90vw;
+}
+.tmcTable summary {
+    position: sticky;
+    top: 0;
+}
+
+.tmcTable .grid {
+    display: grid;
+    grid: auto / 1fr 2fr 5fr 1fr 2fr 2fr 2fr 3fr 2fr;
+    gap: 4px;
+    background-color: var(--bg-color-table);
+}
+
+.tmcTable .grid div {
+    padding: 4px;
+}
+
+.tmcTable .grid div:nth-child(9n + 1) {
+    background-color: var(--bg-color-table-column-odd);
+}
+.tmcTable .grid div:nth-child(9n + 2) {
+    background-color: var(--bg-color-table-column-even);
+}
+.tmcTable .grid div:nth-child(9n + 3) {
+    background-color: var(--bg-color-table-column-odd);
+}
+.tmcTable .grid div:nth-child(9n + 4) {
+    background-color: var(--bg-color-table-column-even);
+}
+.tmcTable .grid div:nth-child(9n + 5) {
+    background-color: var(--bg-color-table-column-odd);
+}
+.tmcTable .grid div:nth-child(9n + 6) {
+    background-color: var(--bg-color-table-column-even);
+}
+.tmcTable .grid div:nth-child(9n + 7) {
+    background-color: var(--bg-color-table-column-odd);
+}
+.tmcTable .grid div:nth-child(9n + 8) {
+    background-color: var(--bg-color-table-column-even);
+}
+.tmcTable .grid div:nth-child(9n) {
+    background-color: var(--bg-color-table-column-odd);
+}

@@ -1,0 +1,24 @@
+.addTmc {
+    display: flex;
+    justify-content: center;
+}
+.addTmc details {
+    min-width: 50vw;
+    max-width: max-content;
+}
+
+.addTmc summary {
+}
+
+.addTmc .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1rem;
+    background-color: var(--bg-color-table);
+    align-items: center;
+}
+
+.addTmc button {
+    width: max-content;
+}

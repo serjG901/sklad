@@ -1,8 +1,8 @@
 import { create } from "zustand";
 import { devtools, persist } from "zustand/middleware";
 
-export interface Item {
-    inventaryNumber: number;
+export interface Tmc {
+    inventoryNumber: number;
     name: string;
     unit: string;
     quantity: number;
@@ -19,110 +19,123 @@ export interface SystemMessage {
 }
 
 export interface SkladState {
-    items: Item[];
-    addItem: (newItem: Item) => void;
-    deleteItem: (
-        deleteInventaryNumber: number,
+    tmcs: Tmc[];
+    addTmc: (newTmc: Tmc) => void;
+    deleteTmc: (
+        deleteInventoryNumber: number,
         deleteQuantity: number,
         deleteComment: string
     ) => void;
+    toUpdateTmc: (inventoryNumber: number, updateTmc: Tmc) => void;
     systemMessages: SystemMessage[];
     addSystemMessage: (systemMessage: SystemMessage) => void;
+    deleteMessage: (datetime: number) => void;
 }
 
-function findItem(inventaryNumber: number, items: Item[]) {
-    const index = items.findIndex(
-        (item: Item) => inventaryNumber === item.inventaryNumber
+function findTmc(inventoryNumber: number, tmcs: Tmc[]) {
+    const index = tmcs.findIndex(
+        (tmc: Tmc) => inventoryNumber === tmc.inventoryNumber
     );
-    return index === -1 ? null : items[index];
+    return index === -1 ? null : tmcs[index];
 }
 
 const useSkladStore = create<SkladState>()(
     devtools(
         persist(
             (set, get) => ({
-                items: [],
-                addItem: (newItem) =>
+                tmcs: [],
+                addTmc: (newTmc) =>
                     set((state) => {
-                        const checkItem: null | Item = findItem(
-                            newItem.inventaryNumber,
-                            state.items
+                        const checkTmc: null | Tmc = findTmc(
+                            newTmc.inventoryNumber,
+                            state.tmcs
                         );
-                        if (checkItem) return { items: state.items };
-                        return { items: [...state.items, newItem] };
+                        if (checkTmc) return { itmcs: state.tmcs };
+                        return { tmcs: [...state.tmcs, newTmc] };
                     }),
-                deleteItem: (
-                    deleteInventaryNumber,
+                deleteTmc: (
+                    deleteInventoryNumber,
                     deleteQuantity,
                     deleteComment
                 ) =>
                     set((state) => {
-                        const checkItem: null | Item = findItem(
-                            deleteInventaryNumber,
-                            state.items
+                        const checkTmc: null | Tmc = findTmc(
+                            deleteInventoryNumber,
+                            state.tmcs
                         );
 
-                        if (!checkItem) {
+                        if (!checkTmc) {
                             get().addSystemMessage({
-                                message: `This item do not exist`,
+                                message: `This tmc [IN:${deleteInventoryNumber}] do not exist`,
                                 comment: deleteComment,
                                 datetime: Date.now(),
                                 color: "red",
                             });
-                            return { items: state.items };
+                            return { tmcs: state.tmcs };
                         } else {
-                            if (checkItem.quantity < deleteQuantity) {
+                            if (checkTmc.quantity < deleteQuantity) {
                                 get().addSystemMessage({
-                                    message: `<<${checkItem.name}>> has quantity (${checkItem.quantity}) less than you trying to delete (${deleteQuantity})`,
+                                    message: `<<${checkTmc.name}>> has quantity (${checkTmc.quantity}) less than you trying to delete (${deleteQuantity})`,
                                     comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "red",
                                 });
-                                return { items: state.items };
-                            } else if (checkItem.quantity === deleteQuantity) {
+                                return { tmcs: state.tmcs };
+                            } else if (checkTmc.quantity === deleteQuantity) {
                                 get().addSystemMessage({
-                                    message: `Delete <<${checkItem.name}>> (all - ${checkItem.quantity})`,
+                                    message: `Delete <<${checkTmc.name}>> (all - ${checkTmc.quantity})`,
                                     comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "green",
                                 });
                                 return {
-                                    items: state.items.filter(
-                                        (item: Item) =>
-                                            item.inventaryNumber !==
-                                            deleteInventaryNumber
+                                    tmcs: state.tmcs.filter(
+                                        (tmc: Tmc) =>
+                                            tmc.inventoryNumber !==
+                                            deleteInventoryNumber
                                     ),
                                 };
                             } else {
                                 get().addSystemMessage({
                                     message: `Delete ${deleteQuantity} <<${
-                                        checkItem.name
+                                        checkTmc.name
                                     }>> (stay on sklad: ${
-                                        checkItem.quantity - deleteQuantity
+                                        checkTmc.quantity - deleteQuantity
                                     })`,
                                     comment: deleteComment,
                                     datetime: Date.now(),
                                     color: "green",
                                 });
                                 return {
-                                    items: [
-                                        ...state.items.filter(
-                                            (item: Item) =>
-                                                item.inventaryNumber !==
-                                                deleteInventaryNumber
+                                    tmcs: [
+                                        ...state.tmcs.filter(
+                                            (tmc: Tmc) =>
+                                                tmc.inventoryNumber !==
+                                                deleteInventoryNumber
                                         ),
                                         {
-                                            ...checkItem,
+                                            ...checkTmc,
                                             quantity:
-                                                checkItem.quantity -
+                                                checkTmc.quantity -
                                                 deleteQuantity,
                                         },
                                     ],
                                 };
                             }
                         }
-                        return { items: state.items };
                     }),
+                toUpdateTmc: (inventoryNumber, updateTmc) =>
+                    set((state) => ({
+                        tmcs: [
+                            ...state.tmcs.filter(
+                                (tmc: Tmc) =>
+                                    tmc.inventoryNumber !== inventoryNumber
+                            ),
+                            {
+                                ...updateTmc,
+                            },
+                        ],
+                    })),
                 systemMessages: [],
                 addSystemMessage: (systemMessage: SystemMessage) =>
                     set((state) => ({
@@ -131,8 +144,17 @@ const useSkladStore = create<SkladState>()(
                             systemMessage,
                         ],
                     })),
+                deleteMessage: (datetime: number) =>
+                    set((state) => ({
+                        systemMessages: [
+                            ...state.systemMessages.filter(
+                                (systemMessage: SystemMessage) =>
+                                    systemMessage.datetime !== datetime
+                            ),
+                        ],
+                    })),
             }),
-            { name: "sklad2" }
+            { name: "sklad6" }
         )
     )
 );

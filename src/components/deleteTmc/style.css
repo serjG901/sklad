@@ -1,0 +1,24 @@
+.deleteTmc {
+    display: flex;
+    justify-content: center;
+}
+.deleteTmc details {
+    min-width: 50vw;
+    max-width: max-content;
+}
+
+.deleteTmc summary {
+}
+
+.deleteTmc .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1rem;
+    background-color: var(--bg-color-table);
+    align-items: center;
+}
+
+.deleteTmc button {
+    width: max-content;
+}
