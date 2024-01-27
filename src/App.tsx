@@ -168,9 +168,9 @@ function App() {
                 <summary>SystemMessages:</summary>
                 <div style={{ display: "grid", grid: "auto / repeat(4, 1fr)" }}>
                     <div>№</div>
-                    <div>Message</div>
+                    <div style={{backgroundColor: "gray"}}>Message</div>
                     <div>Comment</div>
-                    <div>DateTime</div>
+                    <div style={{backgroundColor: "gray"}}>DateTime</div>
                 </div>
                 {systemMessages
                     .map((systemMessage: SystemMessage, index: number) => (
@@ -183,9 +183,9 @@ function App() {
                             }}
                         >
                             <div>{index + 1}</div>
-                            <div>{systemMessage.message}</div>
+                            <div style={{backgroundColor: "gray"}}>{systemMessage.message}</div>
                             <div>{systemMessage.comment}</div>
-                            <div>{systemMessage.datetime}</div>
+                            <div style={{backgroundColor: "gray"}}>{systemMessage.datetime}</div>
                         </div>
                     ))
                     .reverse()}
@@ -196,13 +196,13 @@ function App() {
                 <summary>Items on SKLAD:</summary>
                 <div style={{ display: "grid", grid: "auto / repeat(9, 1fr)" }}>
                     <div>№</div>
-                    <div>InventaryNumber</div>
+                    <div style={{backgroundColor: "gray"}}>InventaryNumber</div>
                     <div>Name</div>
-                    <div>Unit</div>
+                    <div style={{backgroundColor: "gray"}}>Unit</div>
                     <div>Quantity</div>
-                    <div>Price</div>
+                    <div style={{backgroundColor: "gray"}}>Price</div>
                     <div>Cost</div>
-                    <div>Location</div>
+                    <div style={{backgroundColor: "gray"}}>Location</div>
                     <div>Comment</div>
                 </div>
                 {items.map((item: Item, index: number) => (
@@ -214,13 +214,13 @@ function App() {
                         }}
                     >
                         <div>{index + 1}</div>
-                        <div>{item.inventaryNumber}</div>
+                        <div style={{backgroundColor: "gray"}}>{item.inventaryNumber}</div>
                         <div>{item.name}</div>
-                        <div>{item.unit}</div>
+                        <div style={{backgroundColor: "gray"}}>{item.unit}</div>
                         <div>{item.quantity}</div>
-                        <div>{item.price}</div>
+                        <div style={{backgroundColor: "gray"}}>{item.price}</div>
                         <div>{Math.round(item.price * item.quantity*100)/100}</div>
-                        <div>{item.location}</div>
+                        <div style={{backgroundColor: "gray"}}>{item.location}</div>
                         <div>{item.comment}</div>
                     </div>
                 ))}
