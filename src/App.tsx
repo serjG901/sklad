@@ -1,7 +1,6 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import useSkladStore, { Item, SystemMessage } from "./store/store";
 import "./App.css";
-import JSON from "./sklad.json";
 
 function App() {
     const [items, addItem, deleteItem, systemMessages] = useSkladStore(
@@ -12,11 +11,6 @@ function App() {
             state.systemMessages,
         ]
     );
-
-    useEffect(() => {
-        //@ts-ignore
-        if (items.length === 0) JSON.forEach((item) => addItem(item));
-    }, []);
 
     const deleteInventaryNumberRef = useRef<HTMLInputElement | null>(null);
     const deleteQuantityRef = useRef<HTMLInputElement | null>(null);
