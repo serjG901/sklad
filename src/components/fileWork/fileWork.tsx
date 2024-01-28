@@ -34,6 +34,7 @@ export default function FileWork() {
         const file = e.target.files[0];
         const contents = await file.text();
         const arr = JSON.parse(contents);
+        alert(arr);
         if (Array.isArray(arr)) {
             arr.forEach((tmc: Tmc) => addTmc(tmc));
         } else {
