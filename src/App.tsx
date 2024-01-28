@@ -10,13 +10,15 @@ import UpdateTmc from "./components/updateTmc/updateTmc";
 import FileWork from "./components/fileWork/fileWork";
 
 function App() {
-    const [tmcs, addTmc, deleteTmc, systemMessages, deleteMessage] =
+    const [tmcs, addTmc, deleteTmc, clearAllTmcs, systemMessages, deleteMessage, clearAllSystemMessages] =
         useSkladStore((state) => [
             state.tmcs,
             state.addTmc,
             state.deleteTmc,
+            state.clearAllTmcs,
             state.systemMessages,
             state.deleteMessage,
+            state.clearAllSystemMessages,
         ]);
 
     const [updateTmcForIN, setUpdateTmcForIN] = useState<number | null>(null);
@@ -44,6 +46,13 @@ function App() {
             <br />
             <br />
             <TmcTable tmcs={tmcs} setUpdateTmcForIN={setUpdateTmcForIN} />
+            <br />
+            <br />
+            <button type="button" onClick={() => clearAllSystemMessages()}>CLEAR ALL SYSTEM MESSAGEs</button>
+            <br />
+            <br />
+            <button type="button" onClick={() => clearAllTmcs()}>CLEAR ALL TMCs</button>
+            <br />
         </>
     );
 }
