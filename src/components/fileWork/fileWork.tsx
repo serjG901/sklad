@@ -25,13 +25,18 @@ export default function FileWork() {
         aDownloadFile.click();
     }
 
-    const handleDownloadFile = (e) => {
+    const handleDownloadFile = async (e) => {
         const file = e.target.files[0];
-        file.text().then((res) => {
-            const arr = JSON.parse(res);
-            arr.forEach((tmc: Tmc) => addTmc(tmc));
+       const content = await file.text();
+            const arr = JSON.parse(content);
+            if (Array.isArray(arr) {
+               arr.forEach((tmc: Tmc) => addTmc(tmc));
+            } else {
+               arr = txtToArrTmc(contents); 
+               arr.forEach((tmc: Tmc) => addTmc(tmc));
+            };
             console.log(arr);
-        });
+        
     };
 
     const newSaveFile = async () => {
