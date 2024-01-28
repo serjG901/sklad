@@ -11,11 +11,11 @@ export default function FileWork() {
         [fileHandle] = await window.showOpenFilePicker();
         const file = await fileHandle.getFile();
         const contents = await file.text();
-        const arr = JSON.parse(contents);
-        if (Array.isArray(arr)) {
+        if (contents[0] !== "H") {
+            const arr = JSON.parse(contents);
             arr.forEach((tmc: Tmc) => addTmc(tmc));
         } else {
-            arr = txtToArrTmc(contents); 
+            const arr = txtToArrTmc(contents); 
             arr.forEach((tmc: Tmc) => addTmc(tmc));
         };
         console.log(arr);
@@ -33,12 +33,11 @@ export default function FileWork() {
     const handleDownloadFile = async (e) => {
         const file = e.target.files[0];
         const contents = await file.text();
-        const arr = JSON.parse(contents);
-        alert(arr);
-        if (Array.isArray(arr)) {
+        if (contents[0] !== "H") {
+            const arr = JSON.parse(contents);
             arr.forEach((tmc: Tmc) => addTmc(tmc));
         } else {
-            arr = txtToArrTmc(contents); 
+            const arr = txtToArrTmc(contents); 
             arr.forEach((tmc: Tmc) => addTmc(tmc));
         };
         console.log(arr);   
