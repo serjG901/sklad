@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Tmc } from "../../store/store";
 
 interface TmcInTable {

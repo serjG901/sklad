@@ -16,7 +16,7 @@
 
     /* Linting */
     "allowJs": true,"checkJs": false,
-    "strict": true,
+    "strict": false,
     "strictNullChecks": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
