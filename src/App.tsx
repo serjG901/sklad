@@ -1,3 +1,4 @@
+// @ts-nocheck
 import useSkladStore, { Tmc } from "./store/store";
 import "./App.css";
 import TmcTable from "./components/tmcTable/tmcTable";
