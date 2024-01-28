@@ -5,7 +5,7 @@ import { useState } from "react";
 
 interface TmcTable {
     tmcs: Tmc[];
-    setUpdateTmc: React.Dispatch<React.SetStateAction<Tmc>>;
+    setUpdateTmcForIN: React.Dispatch<React.SetStateAction<number>>;
 }
 
 type SortByColumn =
@@ -18,7 +18,7 @@ type SortByColumn =
     | "location"
     | "comment";
 
-export default function TmcTable({ tmcs, setUpdateTmc }: TmcTable) {
+export default function TmcTable({ tmcs, setUpdateTmcForIN }: TmcTable) {
     const [sortByColumn, setSortByColumn] = useState<SortByColumn>("index");
     const [sortDown, setSortDown] = useState<boolean>(false);
 
@@ -138,7 +138,7 @@ export default function TmcTable({ tmcs, setUpdateTmc }: TmcTable) {
                                 key={tmc.inventoryNumber}
                                 tmc={tmc}
                                 index={index}
-                                setUpdateTmc={setUpdateTmc}
+                                setUpdateTmcForIN={setUpdateTmcForIN}
                             />
                         )
                     )}

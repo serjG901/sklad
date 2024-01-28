@@ -3,17 +3,17 @@ import { Tmc } from "../../store/store";
 interface TmcInTable {
     tmc: Tmc;
     index: number;
-    setUpdateTmc: React.Dispatch<React.SetStateAction<Tmc>>;
+    setUpdateTmcForIN: React.Dispatch<React.SetStateAction<number>>;
 }
 
-export default function TmcInTable({ tmc, index, setUpdateTmc }: TmcInTable) {
-    const handleUpdate = () => setUpdateTmc({...tmc});
+export default function TmcInTable({ tmc, index, setUpdateTmcForIN }: TmcInTable) {
+    const handleOpenUpdate = () => setUpdateTmcForIN(tmc.inventoryNumber);
 
     return (
         <>
             <div>{index + 1}</div>
             <div>
-                <button type="button" popovertarget='tmc-popover' onClick={handleUpdate}>
+                <button type="button" popovertarget='tmc-popover' onClick={handleOpenUpdate}>
                     {tmc.inventoryNumber}
                 </button>
             </div>

@@ -87,7 +87,7 @@ export default function SystemMessageTable({
                     {sortByType(systemMessages, sortByColumn, sortDown)
                         .map((systemMessage: SystemMessage, index: number) => (
                             <SystemMessageInTable
-                                key={systemMessage.datetime}
+                                key={systemMessage.datetime*index}
                                 systemMessage={systemMessage}
                                 index={index}
                                 deleteMessage={deleteMessage}

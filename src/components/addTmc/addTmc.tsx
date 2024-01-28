@@ -34,7 +34,7 @@ export default function AddTmc({ addTmc }: AddTmc) {
                 <div className="flex">
                     <input
                         ref={inventoryNumberRef}
-                        type='text'
+                        type='number'
                         name='inventoryNumber'
                         placeholder='InventoryNumber'
                     />
@@ -52,13 +52,13 @@ export default function AddTmc({ addTmc }: AddTmc) {
                     />
                     <input
                         ref={quantityRef}
-                        type='text'
+                        type='number'
                         name='quantity'
                         placeholder='Quantity'
                     />
                     <input
                         ref={priceRef}
-                        type='text'
+                        type='number'
                         name='price'
                         placeholder='Price'
                     />

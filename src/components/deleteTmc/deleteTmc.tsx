@@ -29,13 +29,13 @@ export default function DeleteTmc({ deleteTmc }: DeleteTmc) {
                 <div className='flex'>
                     <input
                         ref={deleteInventoryNumberRef}
-                        type='text'
+                        type='number'
                         name='deleteInventoryNumber'
                         placeholder='InventoryNumber'
                     />
                     <input
                         ref={deleteQuantityRef}
-                        type='text'
+                        type='number'
                         name='deleteQuantity'
                         placeholder='Quantity'
                     />

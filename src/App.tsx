@@ -9,23 +9,16 @@ import { useState } from "react";
 import UpdateTmc from "./components/updateTmc/updateTmc";
 
 function App() {
-    const [
-        tmcs,
-        addTmc,
-        deleteTmc,
-        toUpdateTmc,
-        systemMessages,
-        deleteMessage,
-    ] = useSkladStore((state) => [
-        state.tmcs,
-        state.addTmc,
-        state.deleteTmc,
-        state.toUpdateTmc,
-        state.systemMessages,
-        state.deleteMessage,
-    ]);
+    const [tmcs, addTmc, deleteTmc, systemMessages, deleteMessage] =
+        useSkladStore((state) => [
+            state.tmcs,
+            state.addTmc,
+            state.deleteTmc,
+            state.systemMessages,
+            state.deleteMessage,
+        ]);
 
-    const [updateTmc, setUpdateTmc] = useState<Tmc | null>(null);
+    const [updateTmcForIN, setUpdateTmcForIN] = useState<number | null>(null);
 
     let fileHandle;
     const handleOpenFile = async () => {
@@ -36,25 +29,29 @@ function App() {
         arr.forEach((tmc: Tmc) => addTmc(tmc));
         console.log(arr);
     };
-    /* */
+
+    const handleDownloadFile = (e) => {
+        const file = e.target.files[0];
+        file.text().then((res) => {
+            const arr = JSON.parse(res);
+            arr.forEach((tmc: Tmc) => addTmc(tmc));
+            console.log(arr);
+        });
+    };
+
     return (
         <>
             <div popover='auto' id='tmc-popover'>
                 <UpdateTmc
-                    toUpdateTmc={toUpdateTmc}
-                    inventoryNumber={updateTmc?.inventoryNumber}
-                    name={updateTmc?.name}
-                    unit={updateTmc?.unit}
-                    quantity={updateTmc?.quantity}
-                    price={updateTmc?.price}
-                    location={updateTmc?.location}
-                    comment={updateTmc?.comment}
+                    inventoryNumber={updateTmcForIN}
+                    setUpdateTmcForIN={setUpdateTmcForIN}
                 />
             </div>
 
             <button type='button' onClick={handleOpenFile}>
                 open file
             </button>
+            <input type='file' title='file' onChange={handleDownloadFile} />
             <br />
             <br />
             <DeleteTmc deleteTmc={deleteTmc} />
@@ -68,7 +65,7 @@ function App() {
             />
             <br />
             <br />
-            <TmcTable tmcs={tmcs} setUpdateTmc={setUpdateTmc} />
+            <TmcTable tmcs={tmcs} setUpdateTmcForIN={setUpdateTmcForIN} />
         </>
     );
 }

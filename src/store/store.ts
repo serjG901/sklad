@@ -50,7 +50,22 @@ const useSkladStore = create<SkladState>()(
                             newTmc.inventoryNumber,
                             state.tmcs
                         );
-                        if (checkTmc) return { itmcs: state.tmcs };
+                        if (checkTmc) {
+                            get().addSystemMessage({
+                                message: `TMC IN:${checkTmc.inventoryNumber} has exist`,
+                                comment: ``,
+                                datetime: Date.now(),
+                                color: "red",
+                            });
+                            return { itmcs: state.tmcs };
+                        }
+                        get().addSystemMessage({
+                            message: `Add <<${newTmc.name}>> has IN:${newTmc.inventoryNumber}, quantity (${newTmc.quantity})`,
+                            comment: `location: ${newTmc.location}, comment: ${newTmc.comment}`,
+                            datetime: Date.now(),
+                            color: "green",
+                        });
+
                         return { tmcs: [...state.tmcs, newTmc] };
                     }),
                 deleteTmc: (
@@ -125,17 +140,30 @@ const useSkladStore = create<SkladState>()(
                         }
                     }),
                 toUpdateTmc: (inventoryNumber, updateTmc) =>
-                    set((state) => ({
-                        tmcs: [
-                            ...state.tmcs.filter(
-                                (tmc: Tmc) =>
-                                    tmc.inventoryNumber !== inventoryNumber
-                            ),
-                            {
-                                ...updateTmc,
-                            },
-                        ],
-                    })),
+                    set((state) => {
+                        get().addSystemMessage({
+                            message: `Update TMC IN:${inventoryNumber}`,
+                            comment: `old data: ${JSON.stringify(
+                                get().tmcs.find(
+                                    (tmc: Tmc) =>
+                                        tmc.inventoryNumber === inventoryNumber
+                                )
+                            )} new data: ${JSON.stringify(updateTmc)}`,
+                            datetime: Date.now(),
+                            color: "orange",
+                        });
+                        return {
+                            tmcs: [
+                                ...state.tmcs.filter(
+                                    (tmc: Tmc) =>
+                                        tmc.inventoryNumber !== inventoryNumber
+                                ),
+                                {
+                                    ...updateTmc,
+                                },
+                            ],
+                        };
+                    }),
                 systemMessages: [],
                 addSystemMessage: (systemMessage: SystemMessage) =>
                     set((state) => ({
@@ -154,7 +182,7 @@ const useSkladStore = create<SkladState>()(
                         ],
                     })),
             }),
-            { name: "sklad6" }
+            { name: "sklad10" }
         )
     )
 );

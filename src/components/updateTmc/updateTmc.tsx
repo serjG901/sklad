@@ -1,39 +1,44 @@
-import { useState } from "react";
-import { Tmc } from "../../store/store";
+import { useEffect, useState } from "react";
+import useSkladStore, { Tmc } from "../../store/store";
 import "./style.css";
 
 interface UpdateTmc {
-    toUpdateTmc: (inventoryNumber: number, tmc: Tmc) => void;
     inventoryNumber: number;
-    name: string;
-    unit: string;
-    quantity: number;
-    price: number;
-    location: string;
-    comment: string;
+    setUpdateTmcForIN: React.Dispatch<React.SetStateAction<number>>;
 }
 
 export default function UpdateTmc({
-    toUpdateTmc,
     inventoryNumber,
-    name,
-    unit,
-    quantity,
-    price,
-    location,
-    comment,
+    setUpdateTmcForIN,
 }: UpdateTmc) {
-    const [inventoryNumberS, setInventoryNumber] = useState<number>(
-        () => inventoryNumber
-    );
-    const [nameS, setName] = useState<string>(() => name);
-    const [unitS, setUnit] = useState<string>(() => unit);
-    const [quantityS, setQuantity] = useState<number>(() => quantity);
-    const [priceS, setPrice] = useState<number>(() => price);
-    const [locationS, setLocation] = useState<string>(() => location);
-    const [commentS, setComment] = useState<string>(() => comment);
+    const [tmcs, toUpdateTmc] = useSkladStore((state) => [
+        state.tmcs,
+        state.toUpdateTmc,
+    ]);
 
-    if (!inventoryNumber) return null;
+    const [inventoryNumberS, setInventoryNumber] = useState<number>(0);
+    const [nameS, setName] = useState<string>("");
+    const [unitS, setUnit] = useState<string>("");
+    const [quantityS, setQuantity] = useState<number>(0);
+    const [priceS, setPrice] = useState<number>(0);
+    const [locationS, setLocation] = useState<string>("");
+    const [commentS, setComment] = useState<string>("");
+
+    useEffect(() => {
+        if (inventoryNumber) {
+            const updateTmc = tmcs.find(
+                (tmc: Tmc) => tmc.inventoryNumber === inventoryNumber
+            );
+            setInventoryNumber(inventoryNumber);
+            setName(updateTmc.name);
+            setUnit(updateTmc.unit);
+            setQuantity(updateTmc.quantity);
+            setPrice(updateTmc.price);
+            setLocation(updateTmc.location);
+            setComment(updateTmc.comment);
+        }
+    }, [inventoryNumber, setUpdateTmcForIN, tmcs]);
+
     function handleUpdateTmc() {
         toUpdateTmc(inventoryNumber, {
             inventoryNumber: inventoryNumberS,
@@ -44,16 +49,15 @@ export default function UpdateTmc({
             location: locationS,
             comment: commentS,
         });
+        setUpdateTmcForIN(inventoryNumberS);
     }
-    console.log(inventoryNumberS);
-    console.log(nameS);
     return (
         <div className='updateTmc'>
             <div>Update TMC [IN: {inventoryNumber}]</div>
             <div className='flex'>
                 <input
                     onChange={(e) => setInventoryNumber(Number(e.target.value))}
-                    type='text'
+                    type='number'
                     name='inventoryNumber'
                     placeholder='InventoryNumber'
                     value={inventoryNumberS}
@@ -74,14 +78,14 @@ export default function UpdateTmc({
                 />
                 <input
                     onChange={(e) => setQuantity(parseFloat(e.target.value))}
-                    type='text'
+                    type='number'
                     name='quantity'
                     placeholder='Quantity'
                     value={quantityS}
                 />
                 <input
                     onChange={(e) => setPrice(parseFloat(e.target.value))}
-                    type='text'
+                    type='number'
                     name='price'
                     placeholder='Price'
                     value={priceS}
