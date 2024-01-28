@@ -27,9 +27,11 @@ export interface SkladState {
         deleteComment: string
     ) => void;
     toUpdateTmc: (inventoryNumber: number, updateTmc: Tmc) => void;
+    clearAllTmcs: () => void;
     systemMessages: SystemMessage[];
     addSystemMessage: (systemMessage: SystemMessage) => void;
     deleteMessage: (datetime: number) => void;
+    clearAllSystemMessages: () => void;
 }
 
 function findTmc(inventoryNumber: number, tmcs: Tmc[]) {
@@ -164,6 +166,7 @@ const useSkladStore = create<SkladState>()(
                             ],
                         };
                     }),
+                clearAllTmcs: () => set((state) => ({tmcs: []})),
                 systemMessages: [],
                 addSystemMessage: (systemMessage: SystemMessage) =>
                     set((state) => ({
@@ -181,6 +184,7 @@ const useSkladStore = create<SkladState>()(
                             ),
                         ],
                     })),
+                clearAllSystemMessages: () => set((state) => ({systemMessages: []})),
             }),
             { name: "sklad10" }
         )
