@@ -26,7 +26,7 @@ export default function FileWork() {
         const opts = { type: "application/json" };
         const file = new File([JSON.stringify(tmcs, null, 4)], "", opts);
         aDownloadFile.href = window.URL.createObjectURL(file);
-        aDownloadFile.setAttribute("download", "skladSave.json");
+        aDownloadFile.setAttribute("download", `skladSave${Date.now()}.json`);
         aDownloadFile.click();
     }
 
