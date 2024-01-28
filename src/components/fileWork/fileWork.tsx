@@ -59,23 +59,23 @@ export default function FileWork() {
                 <div className='grid'>
                     <div>
                         <button type='button' onClick={newSaveFile}>
-                            new save file
+                            new save file (JSON)
                         </button>
                     </div>
                     <div>
                         <button type='button' onClick={saveAsLegacy}>
-                            old save file
+                            old save file (JSON)
                         </button>
                         <a id='aDownloadFile' download></a>
                     </div>
                     <div>
                         <button type='button' onClick={handleOpenFile}>
-                            new open file
+                            new open file (formated TXT)
                         </button>
                     </div>
                     <div>
                         <label htmlFor='oldOpenFile'>
-                            Old open file
+                            Old open file (only JSON)
                             <input
                                 name='oldOpenFile'
                                 type='file'
