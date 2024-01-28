@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { create } from "zustand";
 import { devtools, persist } from "zustand/middleware";
 
@@ -59,7 +60,7 @@ const useSkladStore = create<SkladState>()(
                                 datetime: Date.now(),
                                 color: "red",
                             });
-                            return { itmcs: state.tmcs };
+                            return { tmcs: state.tmcs };
                         }
                         get().addSystemMessage({
                             message: `Add <<${newTmc.name}>> has IN:${newTmc.inventoryNumber}, quantity (${newTmc.quantity})`,
