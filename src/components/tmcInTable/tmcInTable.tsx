@@ -13,7 +13,7 @@ export default function TmcInTable({ tmc, index, setUpdateTmc }: TmcInTable) {
     return (
         <>
             <div>{index + 1}</div>
-            <div>/*@ts-ignore*/
+            <div>
                 <button type="button" popovertarget='tmc-popover' onClick={handleUpdate}>
                     {tmc.inventoryNumber}
                 </button>
