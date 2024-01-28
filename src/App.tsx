@@ -39,7 +39,7 @@ function App() {
     };
     /* */
     return (
-        <>/*@ts-ignore*/
+        <>
             <div popover='auto' id='tmc-popover'>
                 <UpdateTmc
                     toUpdateTmc={toUpdateTmc}
