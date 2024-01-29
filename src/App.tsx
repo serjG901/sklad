@@ -48,10 +48,10 @@ function App() {
             <TmcTable tmcs={tmcs} setUpdateTmcForIN={setUpdateTmcForIN} />
             <br />
             <br />
-            <button type="button" onClick={() => clearAllSystemMessages()}>CLEAR ALL SYSTEM MESSAGEs</button>
+            <button type="button" onClick={() => confirm("Delete all system messages?") ? clearAllSystemMessages() : null}>CLEAR ALL SYSTEM MESSAGEs</button>
             <br />
             <br />
-            <button type="button" onClick={() => clearAllTmcs()}>CLEAR ALL TMCs</button>
+            <button type="button" onClick={() => confirm("Delete all TMCs in db?") ? clearAllTmcs() : null}>CLEAR ALL TMCs</button>
             <br />
         </>
     );
